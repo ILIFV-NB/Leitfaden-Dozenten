@@ -1,7 +1,7 @@
 <!--
 author:   Nancy Brinkmann, Ronny Stolze
 
-email:    nancy.brinkmann@hs-magdeburg.de, ronny.stolze@hs-magdeburg.de
+email:    nancy.brinkmann@h2.de, ronny.stolze@h2.de
 
 version:  1.0.0
 
@@ -15,9 +15,68 @@ comment:  Try to write a short comment about
 script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 -->
 
-# Visualisierung der Messdaten
+# Allgemeines
 
-Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den vorgegebenen Tabellen befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
+Dieses kurze Tutorial soll Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools LIA-Script unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
+
+Fortgeschrittene können sich direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
+
+<br>
+<br>
+Bei Fragen wenden Sie sich gern an: *nancy.brinkmann(at)h2.de* oder *ronny.stolze(at)h2.de*.
+
+# (Schnell-)Start
+
+[Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.]
+
+----
+
+<br>
+Zunächst benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Erstellen und Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages) die Möglichkeit, eine Preview Ihres Kurses anzusehen.
+
+
+
+Zurück zur Textdatei. Ihre Textdatei versehen Sie mit folgendem Kopf:
+
+![image](images/Header-w.png)<!--
+style = "border: 0.5px solid; width: 80%; "
+-->
+
+Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommentar zu Ihrem Kurs ein.
+
+Nun können Sie Ihr Inhaltsverzeichnis einfügen, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist zwei ##, usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#4), [Videos](#5) oder [Links](#6).
+
+![image](images/Ueberschriften.png)<!--
+style = "border: 0.5px solid; width: 80%; "
+-->
+
+Die Überschriften unterteilen Ihren Kurs in Seiten. Durch diese können Sie entweder mit einem Klick auf die jeweilige Überschrift im Inhaltsverzeichnis oder mit den Pfeiltasten oben neben der Seitenzahl navigieren.
+
+Nach dem Speichern (Strg+S) der Datei, öffnen Sie die Preview (Alt+L). In dieser sehen Sie nun links Ihr Inhaltsverzeichnis. Das können Sie natürlich auch nach und nach anlegen und immer wieder editieren.
+
+
+
+<br>
+
+<!--
+style = "color: red; width: 100%; "
+-->
+Die Vorlage einbinden oder darauf verweisen?
+
+
+# **Einbinden von Medien**
+
+## Bilder
+
+## Videos
+
+## Links
+
+
+
+# **Visualisieren von Messdaten**
+
+Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den [Vorlagen-Tabellen](#8) befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
 
 ![image](images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
@@ -937,6 +996,35 @@ function plotData(t5, x5) {
 
 <div id="main5" style="position: relative; width:100%; height:600%;" hidden="true"></div>
 
-# Hinweise
+## Hinweise
 
 * Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den Pfeil unter dem Eingabefeld erzeugt ein neues Diagramm.
+
+
+# FAQ
+
+`1.` Wie navigiere ich innerhab der Preview?
+
+|Aktion|Shortcut|
+|---|---|
+|Preview einblenden |Alt+L |
+|Preview aktualisieren | Strg+S |
+|Preview zurücksetzen$*$ | Strg+S oder F5 |
+|zurück | Alt+links |
+|vor |Alt+rechts |
+
+$ * $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
+
+<br>
+
+`2.` Wie installiere ich die Plugins für Atom?
+
+Nach Eingabe folgender Tastenkombination ~~Strg+Shift+P~~ geben Sie in die Suchleiste  ~~settings~~ ein und scrollen Sie solange herunter bis ~~Settings View: Install Packages and Themes~~ erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
+
+<br>
+
+`3.` Was kann ich mit den Plugins anfangen?
+
+Das Plugin ~~liascript-preview~~ bietet Ihnen bspw. die Möglichkeit, eine Voransicht Ihres Kurses, wie er im Browser erscheinen wird, anzusehen und auszuprobieren, ob Bilder und Videos so erscheinen, wie Sie das wünschen oder ob Links funktionieren.
+
+Das Plugin ~~liascript-snippets~~ hilft Ihnen dabei, Befehle zur Erstellung von bspw. Links zu finden bzw. zur Einbindung von Medien. Dazu geben Sie im Editor  ~~lia~~ (oder den Suchbegriff) ein und es erscheinen einige Vorschläge.
