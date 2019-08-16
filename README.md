@@ -17,15 +17,15 @@ script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 
 # Allgemeines
 
-Dieses kurze Tutorial soll Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools LIA-Script unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
+Dieses kurzen Tutorials sollen Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools ~~LIA-Script~~  sowie bei deren Einbindung in die Webumgebung ~~eLab~~ unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
 
-Fortgeschrittene können sich direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
+Für die Erstellung der Kurse können sich Fortgeschrittene direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
 
 <br>
 <br>
-Bei Fragen wenden Sie sich gern an: *nancy.brinkmann(at)h2.de* oder *ronny.stolze(at)h2.de*.
+Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#18) oder [Ronny Stolze](#18).
 
-# (Schnell-)Start
+# ~~**Schnelleinstieg LIA**~~
 
 [Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.]
 
@@ -64,19 +64,19 @@ style = "color: red; width: 100%; "
 Die Vorlage einbinden oder darauf verweisen?
 
 
-# **Einbinden von Medien**
+## **Einbinden von Medien**
 
-## Bilder
+### Bilder
 
-## Videos
+### Videos
 
-## Links
+### Links
 
 
 
-# **Visualisieren von Messdaten**
+## **Visualisieren von Messdaten**
 
-Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den [Vorlagen-Tabellen](#8) befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
+Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den [Vorlagen-Tabellen](#8) auf den folgenden Seiten befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch ~~Ihre~~ Daten, indem Sie die Beispieldaten löschen ...
 
 ![image](images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
@@ -97,7 +97,7 @@ style = "width: 100%; "
 Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den Pfeil links unter dem Eingabefeld notwendig.
 
 
-## Zerspankräfte Drehen
+### Zerspankräfte Drehen
 
 ``` cvs (Zeit in s - Kraft Fx in N - Kraft Fy in N - Kraft Fz in N)
 0;1,5;2,4;0,2
@@ -253,7 +253,7 @@ function plotData(t, x, y, z) {
 <div id="main" style="position:relative; width:100%; height:600%;" hidden="true"></div>
 
 
-##Rauheit Kenngrößen
+### Rauheit Kenngrößen
 
 ``` cvs (Messung - Ra in µm - Rz in µm - Rmax in µm)
 1 0,5;2,1;2,5
@@ -416,7 +416,7 @@ function plotData(t1, x1, y1, z1) {
 <div id="main1" style="position: relative; width:100%; height:600%;" hidden="true"></div>
 
 
-##Rauheitsprofile
+### Rauheitsprofile
 
 <!--
 style="font-size: 30px; margin: 0 0;"
@@ -863,7 +863,7 @@ function plotData(t4, x4) {
 <div id="main4" style="position: relative; width:100%; height:600%;" hidden="true"></div>
 
 
-##Durchmesser
+### Durchmesser
 
 
 ``` cvs (Messung - Ød in mm)
@@ -996,12 +996,53 @@ function plotData(t5, x5) {
 
 <div id="main5" style="position: relative; width:100%; height:600%;" hidden="true"></div>
 
-## Hinweise
+### Hinweise
 
 * Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den Pfeil unter dem Eingabefeld erzeugt ein neues Diagramm.
+* Um sich einen Ausschnitt im Diagramm näher anzuschauen, klicken Sie über dem Diagramm auf das Zoom-Icon ![image](images/Zoom.png)<!--
+style = "width: 2.5%; "
+--> und wählen den zu betrachtenden Bereich im Diagramm aus. Den Ausgangszustand erhalten Sie mit Zoom-Reset ![image](images/Reset.png)<!--
+style = "width: 2%; "
+-->.
+* Wenn Sie erfahren möchten, welche Daten das aktuelle Diagramm beinhaltet, klicken Sie auf das Icon in Form eines Dokumentes ![image](images/Dok.png)<!--
+style = "width: 2%; "
+-->.
 
 
-# FAQ
+# ~~**Schnelleinstieg eLab**~~
+
+Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung *eLab*. Dies betrifft u.a. den Zugang zur Webumgebung, das Einbinden von Kursen sowie das Einsehen von Usern und deren Stand der Kurse.
+
+## Registrierung
+
+Um Zugang zur Webumgebung *eLab* zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung *eLab*](https://elab-hsmd-qa.dev.enterprises/).
+
+<br>
+![image](images/Register.jpg)<!--
+style = "width: 100%;
+        border: 1px solid; "
+-->
+
+Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Tutor. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#18) oder [Ronny Stolze](#18).
+
+<br>
+![image](images/Register-User.png)<!--
+style = "width: 100%;
+        border: 1px solid; "
+-->
+
+## Einbinden von Kursen
+
+Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren das Kontrollkästchen neben ~~Active~~.
+
+<!--
+style="font-size: 14px;"
+-->
+[*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei GitHub: HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*]
+
+# **FAQ**
+
+## LIA
 
 `1.` Wie navigiere ich innerhab der Preview?
 
@@ -1028,3 +1069,21 @@ Nach Eingabe folgender Tastenkombination ~~Strg+Shift+P~~ geben Sie in die Suchl
 Das Plugin ~~liascript-preview~~ bietet Ihnen bspw. die Möglichkeit, eine Voransicht Ihres Kurses, wie er im Browser erscheinen wird, anzusehen und auszuprobieren, ob Bilder und Videos so erscheinen, wie Sie das wünschen oder ob Links funktionieren.
 
 Das Plugin ~~liascript-snippets~~ hilft Ihnen dabei, Befehle zur Erstellung von bspw. Links zu finden bzw. zur Einbindung von Medien. Dazu geben Sie im Editor  ~~lia~~ (oder den Suchbegriff) ein und es erscheinen einige Vorschläge.
+
+<br>
+
+`4.` Vorgehensweise, wenn ein(e) Studierende(r) das Passwort vergessen hat.
+
+Sie loggen sich in die Lernumgebung ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
+style = "width: 2.5%; "
+--> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
+
+## eLab
+
+# Kontakt
+
+Nancy Brinkmann <br>
+E-Mail: nancy.brinkmann(at)h2.de
+
+Ronny Stolze <br>
+E-Mail: ronny.stolze(at)h2.de
