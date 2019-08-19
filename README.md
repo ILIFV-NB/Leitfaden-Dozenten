@@ -1040,6 +1040,12 @@ style="font-size: 14px;"
 -->
 [*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei GitHub: HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*]
 
+## Teilnehmereinsicht
+
+## Tickets einsehen
+
+Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unter ~~Issues~~ ein Ticket erstellen. Diese finden Sie, wenn Sie in einen beliebigen Kurs gehen, das Drop-Down Menü unter ~~Admin~~ wählen und dort ~~Tickets~~ anklicken. Mit ~~Edit~~ können Sie dem Text etwas hinzufügen **[WOZU??? Für wen?]** und den Status ändern (*in progress, resolved, closed, etc.*) **[auch hier: WOFÜR? Für sich selbst als Gedankenstütze?]**.
+
 # **FAQ**
 
 ## LIA
