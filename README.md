@@ -17,29 +17,27 @@ script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 
 # Allgemeines
 
-Dieses kurzen Tutorials sollen Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools ~~LIA-Script~~  sowie bei deren Einbindung in die Webumgebung ~~eLab~~ unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
+Diese kurzen Tutorials sollen Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools [LIA-Script](https://liascript.github.io/)  sowie bei deren Einbindung in die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
 
 Für die Erstellung der Kurse können sich Fortgeschrittene direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
 
 <br>
 <br>
-Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#18) oder [Ronny Stolze](#18).
+Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
 
-# ~~**Schnelleinstieg LIA**~~
+# ~~**Schnelleinstieg LIA-Script**~~
 
 [Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.]
 
 ----
 
 <br>
-Zunächst benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Erstellen und Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages) die Möglichkeit, eine Preview Ihres Kurses anzusehen.
+Zunächst benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Erstellen und Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden. (Näheres finden Sie [hier](#19).)
 
+Zurück zur Textdatei. In [Atom](https://atom.io/) öffnen Sie unter *File* -> *New File* eine neue Datei. Diese versehen Sie mit folgendem Kopf:
 
-
-Zurück zur Textdatei. Ihre Textdatei versehen Sie mit folgendem Kopf:
-
-![image](images/Header-w.png)<!--
-style = "border: 0.5px solid; width: 80%; "
+![image](images/Header.png)<!--
+style = "border: 1px solid; width: 80%; "
 -->
 
 Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommentar zu Ihrem Kurs ein.
@@ -47,7 +45,7 @@ Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommenta
 Nun können Sie Ihr Inhaltsverzeichnis einfügen, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist zwei ##, usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#4), [Videos](#5) oder [Links](#6).
 
 ![image](images/Ueberschriften.png)<!--
-style = "border: 0.5px solid; width: 80%; "
+style = "border: 1px solid; width: 80%; "
 -->
 
 Die Überschriften unterteilen Ihren Kurs in Seiten. Durch diese können Sie entweder mit einem Klick auf die jeweilige Überschrift im Inhaltsverzeichnis oder mit den Pfeiltasten oben neben der Seitenzahl navigieren.
@@ -1023,7 +1021,7 @@ style = "width: 100%;
         border: 1px solid; "
 -->
 
-Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Tutor. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#18) oder [Ronny Stolze](#18).
+Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
 
 <br>
 ![image](images/Register-User.png)<!--
@@ -1048,9 +1046,11 @@ Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unt
 
 # **FAQ**
 
-## LIA
+Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) bzw. zur [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
 
-`1.` Wie navigiere ich innerhab der Preview?
+## LIA-Script
+
+`1.` Wie navigiere ich innerhab der Preview in Atom?
 
 |Aktion|Shortcut|
 |---|---|
@@ -1066,7 +1066,7 @@ $ * $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 `2.` Wie installiere ich die Plugins für Atom?
 
-Nach Eingabe folgender Tastenkombination ~~Strg+Shift+P~~ geben Sie in die Suchleiste  ~~settings~~ ein und scrollen Sie solange herunter bis ~~Settings View: Install Packages and Themes~~ erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
+Nach Eingabe folgender Tastenkombination ~~Strg+Shift+P~~ geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis ~~Settings View: Install Packages and Themes~~ erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
 
 <br>
 
@@ -1078,13 +1078,14 @@ Das Plugin ~~liascript-snippets~~ hilft Ihnen dabei, Befehle zur Erstellung von 
 
 <br>
 
-`4.` Vorgehensweise, wenn ein(e) Studierende(r) das Passwort vergessen hat.
-
-Sie loggen sich in die Lernumgebung ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
-style = "width: 2.5%; "
---> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
 ## eLab
+
+`1.` Vorgehensweise, wenn ein(e) Studierende(r) das Passwort vergessen hat.
+
+Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
+style = "width: 2%; "
+--> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
 # Kontakt
 
