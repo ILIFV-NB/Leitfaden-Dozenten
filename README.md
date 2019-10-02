@@ -21,8 +21,6 @@ Diese kurzen Tutorials sollen Sie bei der Erstellung und Bearbeitung Ihrer Kurse
 
 Für die Erstellung der Kurse können sich Fortgeschrittene direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
 
-<br>
-<br>
 Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
 
 # ~~**Schnelleinstieg LIA-Script**~~
@@ -42,7 +40,7 @@ style = "border: 1px solid; width: 80%; "
 
 Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommentar zu Ihrem Kurs ein.
 
-Nun können Sie Ihr Inhaltsverzeichnis einfügen, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist zwei ##, usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#4), [Videos](#5) oder [Links](#6).
+Nun können Sie Ihr Inhaltsverzeichnis einfügen, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist zwei ## usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#4), [Videos](#5) oder [Links](#6).
 
 ![image](images/Ueberschriften.png)<!--
 style = "border: 1px solid; width: 80%; "
@@ -66,7 +64,21 @@ Die Vorlage einbinden oder darauf verweisen?
 
 ### Bilder
 
+Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner *github* und trägt idealerweise den Namen Ihres Kurses. In einem jeden Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen und alle Fotos und Videos das Projekt betreffend beinhalten.
+
+Um das Foto nun einzubinden, geben Sie in [Atom](https://atom.io/) innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist, dass das [Plugin](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) ~~liascript-snippets~~ installiert ist.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview bzw. später im Browser erscheint an dieser Stelle Ihr Foto.
+
+Sie können Ihr Foto mit einem Rahmen (border) versehen oder die Größe (width), in der es auf der Webseite zu sehen sein soll bestimmen:
+
+`![image](images/ErstesKursFoto.png)<!--`
+<br/>
+`style = "border: 1px solid; width: 80%; "`
+<br/>
+`-->`
+
 ### Videos
+
+Um ein Video einzubinden, gehen Sie wir oben (Bilder) beschrieben vor.
 
 ### Links
 
@@ -1031,12 +1043,12 @@ style = "width: 100%;
 
 ## Einbinden von Kursen
 
-Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren das Kontrollkästchen neben ~~Active~~.
+Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren das Kontrollkästchen neben ~~Active~~. (In diesen Bereich gelangen Sie wieder über *eLab -> jeweiliger Kurs ->  Edit*)
 
 <!--
 style="font-size: 14px;"
 -->
-[*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei GitHub: HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*]
+[*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei [GitHub](https://github.com/). HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*]
 
 ## Teilnehmereinsicht
 
