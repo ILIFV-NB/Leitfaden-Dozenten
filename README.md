@@ -64,7 +64,7 @@ Die Vorlage einbinden oder darauf verweisen?
 
 ### Bilder
 
-Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner *github* und trägt idealerweise den Namen Ihres Kurses. In einem jeden Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen und alle Fotos und Videos das Projekt betreffend beinhalten.
+Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner ~~github~~ und trägt idealerweise den Namen Ihres Kurses. In einem jeden Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen und alle Fotos und Videos das Projekt betreffend beinhalten.
 
 Um das Foto nun einzubinden, geben Sie in [Atom](https://atom.io/) innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist, dass das [Plugin](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) ~~liascript-snippets~~ installiert ist.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview bzw. später im Browser erscheint an dieser Stelle Ihr Foto.
 
@@ -78,10 +78,58 @@ Sie können Ihr Foto mit einem Rahmen (border) versehen oder die Größe (width)
 
 ### Videos
 
-Um ein Video einzubinden, gehen Sie wir oben (Bilder) beschrieben vor.
+Um ein Video einzubinden, gibt es verschieden Möglichkeiten. Ein Video, das sich lokal auf ihrem Rechner befindet, binden Sie wie oben (Bilder) beschrieben ein. Damit sich die Größe des Videos an die Größe ihres Browsers anpasst, ergänzen Sie den Pfad wie folgt:
+
+`![movie](movies/ErstesKursVideo.png)<!--`
+<br/>
+`style = "width: 100%; "`
+<br/>
+`-->`
+
+Sie können aber auch ein Video aus dem Internet (z.B. von YouTube) einbinden. Hier gibt es zwei Möglichkeiten.
+
+~~1. Möglichkeit~~
+
+Sie öffnen das gewünschte Video auf YouTube, klicken mit der rechten Maustaste darauf und wählen ~~Video-URL kopieren~~ aus. Diese platzieren Sie an entsprechender Stelle in ihrem Dokument - dort, wo Sie normalerweise Ihren lokalen Pfad aufführen:
+
+`!?[embedded media](https://youtu.be/bICfKRyKTwE)`
+
+!?[embedded media](https://youtu.be/bICfKRyKTwE)
+
+<br/>
+~~2. Möglichkeit~~
+
+Sie öffnen das gewünschte Video auf YouTube, klicken mit der rechten Maustaste darauf und wählen ~~Einbettungscode kopieren~~ aus. Diesen platzieren Sie an entsprechender Stelle in ihrem Dokument. Der Code beinhaltet bereits Größenangaben des anzuzeigenden Videos, die Sie gern anpassen können.
+
+`<iframe width="793" height="446" src="https://www.youtube.com/embed/bICfKRyKTwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+
+<iframe width="793" height="446" src="https://www.youtube.com/embed/bICfKRyKTwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Links
 
+Um einen Link zu vermerken, kopieren Sie diesen aus der Eingabezeile Ihres Browsers an die entsprechende Stelle in Ihrem Dokument. Fertig.
+
+https://liascript.github.io/
+
+---------
+
+Sie können diesen Link auch hinter einem Namen verstecken.
+
+`[LIA](https://liascript.github.io/)`
+
+[LIA](https://liascript.github.io/)
+
+Wenn Sie in ~~Atom~~ das Wort ~~link~~ eingeben und dann die Tabtaste betätigen, erscheint eine Vorlage:
+
+`[name](url)`
+
+---------
+Möchten Sie innerhalb Ihres Kurses auf eine andere Seite verweisen, können Sie dazu die jeweilige Seitennummer nutzen. Diese befindet sich oberhalb einer jeden Seite. Gehen Sie wie oben beschrieben vor. Geben Sie anstelle der URL die Seitenzahl ein und stellen sie der Seitenzahl ein # voran.
+
+`[Einbinden von Medien](#3)`
+
+[Einbinden von Medien](#3)
 
 
 ## **Visualisieren von Messdaten**
@@ -1021,11 +1069,11 @@ style = "width: 2%; "
 
 # ~~**Schnelleinstieg eLab**~~
 
-Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung *eLab*. Dies betrifft u.a. den Zugang zur Webumgebung, das Einbinden von Kursen sowie das Einsehen von Usern und deren Stand der Kurse.
+Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung eLab. Dies betrifft u.a. den Zugang zur Webumgebung, das Einbinden von Kursen sowie das Einsehen von Usern und deren Stand der Kurse.
 
 ## Registrierung
 
-Um Zugang zur Webumgebung *eLab* zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung *eLab*](https://elab-hsmd-qa.dev.enterprises/).
+Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
 
 <br>
 ![image](images/Register.jpg)<!--
@@ -1098,6 +1146,38 @@ Das Plugin ~~liascript-snippets~~ hilft Ihnen dabei, Befehle zur Erstellung von 
 Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
 style = "width: 2%; "
 --> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
+
+
+# JS-Code
+
+HTML Code zum einbetten in die Seite (File Input)
+```html
+<input type="file" onchange="getFileContent(this.files)">
+<pre id="content">
+</pre>
+```
+
+JS Code zum auslesen der Dateien
+```js
+window.getFileContent = (files) => {
+	if (files.length !== 1) {
+  	// Sicherstellen, dass nur eine Datei hochgeladen wurde.
+    return;
+  }
+  const reader = new FileReader();
+  reader.addEventListener("loadend", () => {
+  	// in reader.result stehen die bytes
+    // also müssen wir es noch in text umwandeln.
+
+    const decoder = new TextDecoder();
+    const textValue = decoder.decode(reader.result);
+
+    // Jetzt kannst du dinge mit dem text machen
+  	document.getElementById("content").innerText = textValue;
+  });
+  reader.readAsArrayBuffer(files[0]);
+}
+```
 
 # Kontakt
 
