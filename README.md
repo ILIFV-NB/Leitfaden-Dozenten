@@ -25,14 +25,41 @@ Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#21) oder [Ronny Sto
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
-[Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.]
+Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.
 
-----
 
-<br>
-Zunächst benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Erstellen und Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden. (Näheres finden Sie [hier](#19).)
+##**Vorbereitungen**
 
-Zurück zur Textdatei. In [Atom](https://atom.io/) öffnen Sie unter *File* -> *New File* eine neue Datei. Diese versehen Sie mit folgendem Kopf:
+Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#4) unterstützen. (Näheres zu den Plugins finden Sie [hier](#21).) Um Ihre Kurse online zur Verfügung stellen zu können, nutzen wir eine Plattform: [GitHub](https://github.com/). Mithilfe dieser Plattform sind Sie in der Lage, Ihre Kurse samt Medien zu verwalten, Sie gemeinsam mit Kollegen zu bearbeiten sowie Abzweigungen zu erstellen, wenn Sie sich einmal nicht sicher sind, in welche Richtung Ihr Format gehen soll. Aber der Reihe nach:
+
+<br/>
+
+1. Account bei [GitHub](https://github.com/) anlegen
+2. Repository erstellen (inkl. ReadMe-Datei)
+3. Evtl. Fotos und Videos hochladen (oder später lokal)
+4. [Atom](https://atom.io/) laden und installieren
+5. Repository klonen und über Atom laden (-> lokal auf dem Rechner)
+6. Ordner mit Medien füllen
+7. Pojektordner in Atom laden (notwendig?)
+
+<br/>
+
+1. Um Kurse online zur Verfügung zu stellen, benötigen Sie eine Plattform wie z.B. [GitHub](https://github.com/), auf der Sie Ihre Kurse in sogenannten Repositories verwalten. Der erste Schritt ist also, auf der Website von [GitHub](https://github.com/) einen **Account** anzulegen.
+2. Wenn Sie angemeldet sind, finden Sie auf der Seite rechts oben ein $+$-Zeichen. Im Dropdown-Menü klicken Sie auf *New repository*. (Alternative: Nach Klick auf das Katzensymbol ![image](images/Katze.png)<!--
+style = "width: 3%; "
+--> in der linken oberen Ecke erscheint ein *New*-Button ![image](images/New_Repository.png)<!--
+style = "width: 5%; "
+-->.) Hier vergeben Sie einen (Kurs-)Namen, geben optional eine kurze Beschreibung ein und entscheiden, ob das **Repository** gleich öffentlich sein soll oder zunächst privat. Um direkt eine ReadMe-Datei zu erstellen, die Sie als Grundlage für Ihren Kursinhalt benötigen, setzen Sie vor *Initialize this repository with a README* einen Haken. Mit *Create repository* bestätigen Sie Ihren Vorgang. Ihr Repository wird nun auf der Seite links oben sichtbar (![image](images/Katze.png)<!--
+style = "width: 3%; "
+-->).
+3. Nachdem Sie Ihr Repository geöffnet haben, sehen Sie einen Button mit dem Namen *Upload files*. Hierüber können Sie **Fotos oder Videos laden**, die Sie in Ihren Kurs einbinden möchten. Es empfiehlt sich, diese in Ordnern abzulegen, die bspw. die Namen *images* bzw. *movies* tragen. Sie können diesen Schritt aber auch später lokal über Ihren Rechner ausführen.
+4. Laden Sie sich nun den Online-Editor [Atom](https://atom.io/) herunter und installieren Ihn auf Ihrem Rechner. Mit [Atom](https://atom.io/) können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes *lia* eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#4) unterstützen. (Näheres zu den Plugins finden Sie [hier](#21).)
+5. Klonen
+6. Ordner füllen
+7. Projektordner laden
+
+<br/>
+Zurück zur Textdatei. In [Atom](https://atom.io/) öffnen Sie die jeweilige ReadMe-Datei in Ihrem Projekt-/Kursordner und versehen Sie mit folgendem Kopf:
 
 ![image](images/Header.png)<!--
 style = "border: 1px solid; width: 80%; "
@@ -62,9 +89,13 @@ Die Vorlage einbinden oder darauf verweisen?
 
 ## **Einbinden von Medien**
 
+Auf den folgenden Seiten finden Sie Möglichkeiten, Bilder, Videos oder Links in Ihren Kurs einzubinden.
+
 ### Bilder
 
-Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner ~~github~~ und trägt idealerweise den Namen Ihres Kurses. In einem jeden Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen und alle Fotos und Videos das Projekt betreffend beinhalten.
+Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner ~~GitHub~~ und trägt idealerweise den Namen Ihres Kurses. In einem jeden Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen und alle Fotos und Videos das Projekt betreffend beinhalten.
+
+**ERLÄUTERUNG**, wie und wo man Fotos oder Videos in welchen Ordnern ablegt!!!
 
 Um das Foto nun einzubinden, geben Sie in [Atom](https://atom.io/) innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist, dass das [Plugin](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) ~~liascript-snippets~~ installiert ist.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview bzw. später im Browser erscheint an dieser Stelle Ihr Foto.
 
@@ -134,7 +165,7 @@ Möchten Sie innerhalb Ihres Kurses auf eine andere Seite verweisen, können Sie
 
 ## **Visualisieren von Messdaten**
 
-Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den [Vorlagen-Tabellen](#8) auf den folgenden Seiten befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch ~~Ihre~~ Daten, indem Sie die Beispieldaten löschen ...
+Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den Vorlagen-Tabellen auf den folgenden Seiten befinden sich [Beispieldaten](#8) zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch *Ihre* Daten, indem Sie die Beispieldaten löschen ...
 
 ![image](images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
@@ -146,14 +177,28 @@ style = "width: 100%; "
 style = "width: 100%; "
 -->
 
-Ein Klick auf den Pfeil unten links macht aus Ihren Daten ein Diagramm. Dieses können Sie als Bilddatei herunterladen (rechts über dem Diagramm: Pfeil nach unten) und speichern. Um einzelne Graphen auszublenden, klicken Sie auf das jeweilige Symbol in der Legende.
+Ein Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
+style = "width: 3%; "
+--> unten links macht aus Ihren Daten ein Diagramm. Dieses können Sie als Bilddatei herunterladen ![image](images/download.png)<!--
+style = "width: 3%; "
+--> und speichern. Um einzelne Graphen auszublenden, klicken Sie auf das jeweilige Symbol in der Legende.
 
 ![image](images/Diagramm-Kraftverlauf.png)<!--
 style = "width: 100%; "
 -->
 
-Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den Pfeil links unter dem Eingabefeld notwendig.
+Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile ![image](images/Pfeile-grau.png)<!--
+style = "width: 10%; "
+-->, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
+style = "width: 3%; "
+--> links unter dem Eingabefeld notwendig.
 
+## **->Beispiele**
+
+* [Zerspankräfte Drehen](#9)<br/>
+* [Rauheitskenngrößen](#10)<br/>
+* [Rauheitsprofile](#11)<br/>
+* [Durchmesser](#12)
 
 ### Zerspankräfte Drehen
 
@@ -311,7 +356,7 @@ function plotData(t, x, y, z) {
 <div id="main" style="position:relative; width:100%; height:600%;" hidden="true"></div>
 
 
-### Rauheit Kenngrößen
+### Rauheitskenngrößen
 
 ``` cvs (Messung - Ra in µm - Rz in µm - Rmax in µm)
 1 0,5;2,1;2,5
@@ -1054,9 +1099,11 @@ function plotData(t5, x5) {
 
 <div id="main5" style="position: relative; width:100%; height:600%;" hidden="true"></div>
 
-### Hinweise
+## **-> Hinweise**
 
-* Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den Pfeil unter dem Eingabefeld erzeugt ein neues Diagramm.
+* Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
+style = "width: 3%; "
+--> unter dem Eingabefeld erzeugt ein neues Diagramm.
 * Um sich einen Ausschnitt im Diagramm näher anzuschauen, klicken Sie über dem Diagramm auf das Zoom-Icon ![image](images/Zoom.png)<!--
 style = "width: 2.5%; "
 --> und wählen den zu betrachtenden Bereich im Diagramm aus. Den Ausgangszustand erhalten Sie mit Zoom-Reset ![image](images/Reset.png)<!--
@@ -1066,6 +1113,11 @@ style = "width: 2%; "
 style = "width: 2%; "
 -->.
 
+##Hochladen/Zugänglich machen des Kurses
+
+Um Ihren Kurs online verfügbar zu machen (das ist notwendig, um ihn in der Webumgebung eLab aufrufen zu können), müssen Sie ihre Textdatei zu [GitHub](https://github.com/) hochladen.
+
+[]!!!Erläuterung, wie man sich bei GitHub anmeldet (kurzes Video?) und dort Repositories erstellt und diese wiederum in Atom 'cloned'.!!!]
 
 # ~~**Schnelleinstieg eLab**~~
 
@@ -1096,9 +1148,22 @@ Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf de
 <!--
 style="font-size: 14px;"
 -->
-[*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei [GitHub](https://github.com/). HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*]
+*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei [GitHub](https://github.com/). HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*
 
 ## Teilnehmereinsicht
+
+Um die Liste der angemeldeten Teilnehmer einzusehen, sind Administratorrechte erforderlich. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
+
+<br/>
+~~Teilnehmer de-/aktivieren~~
+
+Gehen Sie im Menü auf ~~User~~, klicken auf das Auge und oben rechts auf ~~Edit~~. Setzen oder entfernen Sie je nach Vorhaben den Haken neben ~~active~~.
+
+~~Teilnehmern eine bestimmte Rolle zuweisen~~
+
+Gehen Sie im Menü auf ~~User~~, klicken auf das Auge und oben rechts auf ~~Edit~~. Ändern Sie hier neben ~~Role~~ den jeweiligen Status.
+
+
 
 ## Tickets einsehen
 
