@@ -13,78 +13,150 @@ comment:  Try to write a short comment about
           your course, multiline is also okay.
 
 script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
+
 -->
 
 # Allgemeines
 
-Diese kurzen Tutorials sollen Sie bei der Erstellung und Bearbeitung Ihrer Kurse mit Hilfe des Tools [LIA-Script](https://liascript.github.io/)  sowie bei deren Einbindung in die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) unterstützen. Außerdem wird Ihnen aufgezeigt, welche Daten Sie in Ihre Kurse einbinden können und welche Möglichkeiten sich bieten, diese darzustellen.
+Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Script](https://liascript.github.io/) sowie die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
 
-Für die Erstellung der Kurse können sich Fortgeschrittene direkt zur Webseite [LIA-Script](https://liascript.github.io/) bzw. zur [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) begeben und sich dort umsehen. Hier finden Sie die komplette (englische) Beschreibung zum Aufbau eines Kurses.
+**LIA-Script** ist eine Markdownsprache, mithilfe derer Sie Ihren Kurs aufbauen können. Auf den folgenden Seiten bekommen Sie einen Überblick über das Arbeiten mit LIA-Script. Darüber hinaus erfahren Sie in der [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) (englisch) alles, was Sie über LIA-Script wissen müssen und, was Sie damit anstellen können. Eine verkürzte Version auf Deutsch finden Sie [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/demo/master/README.md#1).
 
+Die **Webumgebung eLab** ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
+
+<br/>
 Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
 Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.
 
+Bevor Sie einen Kurs erstellen können, sind einige [Vorbereitungen](#3) zu treffen. Eine Anleitung finden Sie auf den nächsten Seiten.
+
 
 ##**Vorbereitungen**
 
-Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie  mithilfe von aktuell zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#4) unterstützen. (Näheres zu den Plugins finden Sie [hier](#21).) Um Ihre Kurse online zur Verfügung stellen zu können, nutzen wir eine Plattform: [GitHub](https://github.com/). Mithilfe dieser Plattform sind Sie in der Lage, Ihre Kurse samt Medien zu verwalten, Sie gemeinsam mit Kollegen zu bearbeiten sowie Abzweigungen zu erstellen, wenn Sie sich einmal nicht sicher sind, in welche Richtung Ihr Format gehen soll. Aber der Reihe nach:
+Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine ~~Textdatei~~, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie mithilfe von aktuell zwei Werkzeugen für LIA-Script ([Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search)) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen. (Näheres zu den Plugins finden Sie [hier](#25).)
+
+Um Ihre Kurse online zur Verfügung stellen zu können, nutzen wir eine Plattform: [GitHub](https://github.com/). Mithilfe dieser Plattform sind Sie in der Lage, Ihre Kurse samt Medien zu verwalten, Sie gemeinsam mit Kollegen zu bearbeiten sowie Abzweigungen zu erstellen, wenn Sie sich einmal nicht sicher sind, in welche Richtung Ihr Format gehen soll.
+
+Die folgenden zwei Seiten unterstützen Sie bei den Vorbereitungen.
 
 <br/>
+* Versionsverwaltung [GitHub](#4)
+* Online Editor [Atom](#5)
 
-1. Account bei [GitHub](https://github.com/) anlegen
-2. Repository erstellen (inkl. ReadMe-Datei)
-3. Evtl. Fotos und Videos hochladen (oder später lokal)
-4. [Atom](https://atom.io/) laden und installieren
-5. Repository klonen und über Atom laden (-> lokal auf dem Rechner)
-6. Ordner mit Medien füllen
-7. Pojektordner in Atom laden (notwendig?)
+
+### GitHub
 
 <br/>
+1. Account auf [GitHub](https://github.com/) anlegen
 
-1. Um Kurse online zur Verfügung zu stellen, benötigen Sie eine Plattform wie z.B. [GitHub](https://github.com/), auf der Sie Ihre Kurse in sogenannten Repositories verwalten. Der erste Schritt ist also, auf der Website von [GitHub](https://github.com/) einen **Account** anzulegen.
-2. Wenn Sie angemeldet sind, finden Sie auf der Seite rechts oben ein $+$-Zeichen. Im Dropdown-Menü klicken Sie auf *New repository*. (Alternative: Nach Klick auf das Katzensymbol ![image](images/Katze.png)<!--
-style = "width: 3%; "
+Um Kurse online zur Verfügung zu stellen, benötigen Sie eine Plattform wie z.B. GitHub, auf der Sie Ihre Kurse in sogenannten Repositories verwalten. Der erste Schritt ist also, auf der Website von GitHub einen **Account** anzulegen.
+
+<br/>
+2. **Repository** erstellen $ ^* $ (inkl. ReadMe-Datei)
+
+Wenn Sie auf GitHub angemeldet sind, finden Sie auf der Seite rechts oben ein $+$-Zeichen. Im Dropdown-Menü klicken Sie auf *New repository*. (Alternative: Nach Klick auf das Katzensymbol ![image](images/Katze.png)<!--
+style = "width: 2%; "
 --> in der linken oberen Ecke erscheint ein *New*-Button ![image](images/New_Repository.png)<!--
 style = "width: 5%; "
--->.) Hier vergeben Sie einen (Kurs-)Namen, geben optional eine kurze Beschreibung ein und entscheiden, ob das **Repository** gleich öffentlich sein soll oder zunächst privat. Um direkt eine ReadMe-Datei zu erstellen, die Sie als Grundlage für Ihren Kursinhalt benötigen, setzen Sie vor *Initialize this repository with a README* einen Haken. Mit *Create repository* bestätigen Sie Ihren Vorgang. Ihr Repository wird nun auf der Seite links oben sichtbar (![image](images/Katze.png)<!--
-style = "width: 3%; "
--->).
-3. Nachdem Sie Ihr Repository geöffnet haben, sehen Sie einen Button mit dem Namen *Upload files*. Hierüber können Sie **Fotos oder Videos laden**, die Sie in Ihren Kurs einbinden möchten. Es empfiehlt sich, diese in Ordnern abzulegen, die bspw. die Namen *images* bzw. *movies* tragen. Sie können diesen Schritt aber auch später lokal über Ihren Rechner ausführen.
-4. Laden Sie sich nun den Online-Editor [Atom](https://atom.io/) herunter und installieren Ihn auf Ihrem Rechner. Mit [Atom](https://atom.io/) können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes *lia* eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#4) unterstützen. (Näheres zu den Plugins finden Sie [hier](#21).)
-5. Klonen
-6. Ordner füllen
-7. Projektordner laden
+-->.) Hier vergeben Sie einen (Kurs-)Namen, geben optional eine kurze Beschreibung ein und entscheiden, ob das **Repository** gleich öffentlich sein soll oder zunächst privat $ ^{* * } $. Um direkt eine ReadMe-Datei zu erstellen, die Sie als Grundlage für Ihren Kursinhalt benötigen, setzen Sie vor *Initialize this repository with a README* einen Haken. Mit *Create repository* bestätigen Sie Ihren Vorgang. Ihr Repository wird nun auf der Seite links oben sichtbar ![image](images/Katze.png)<!--
+style = "width: 2%; "
+-->.
 
 <br/>
-Zurück zur Textdatei. In [Atom](https://atom.io/) öffnen Sie die jeweilige ReadMe-Datei in Ihrem Projekt-/Kursordner und versehen Sie mit folgendem Kopf:
+3. Fotos und Videos hochladen (oder später lokal)
 
-![image](images/Header.png)<!--
-style = "border: 1px solid; width: 80%; "
+Nachdem Sie Ihr Repository geöffnet haben, sehen Sie einen Button mit dem Namen *Upload files*. Hierüber können Sie per 'Drag & Drop' **Fotos oder Videos laden**, die Sie in Ihren Kurs einbinden möchten. Es empfiehlt sich, diese in Ordnern abzulegen, die bspw. die Namen *images* bzw. *movies* tragen. Sie können diesen Schritt aber auch später lokal über Ihren Rechner ausführen. (Erläuterungen unter GitHub -> 4. bzw. Atom -> 3.)
+
+<br/>
+4. Repository für Atom **klonen**
+
+Sie haben nun die Möglichkeit, Ihren Kurs in den Online-Editor Atom zu laden und dort zu bearbeiten. Öffnen Sie dazu ihren Kurs auf GitHub ![image](images/Katze.png)<!--
+style = "width: 2%; "
+-->, klicken rechts über Ihrem Kurs auf *Clone or download* ![image](images/clone.png)<!--
+style = "width: 12%; "
+--> und kopieren Sie den Link. Mithilfe dieses Links werden die Inhalte des Repositorys lokal auf Ihrem Rechner gespeichert und können dort mit Material befüllt werden (Alternative -> direkt in GitHub). Für nähere Erläuterungen und die weitere Vorgehensweise schauen Sie sich bitte das Kapitel [Atom](#5) -> *3. Geklontes Repository laden* an.
+
+<br/>
+$^* $ [Hier](https://guides.github.com/activities/hello-world/) finden Fortgeschrittene nähere Informationen zum Erstellen und Bearbeiten eines Repositorys.
+
+$^{* * } $ Ihr Kurs wird erst dann für andere zugänglich sein, wenn Sie den Status auf 'public' umgestellt haben.
+
+### Atom
+
+<br/>
+1. Online Editor [Atom](https://atom.io/) **installieren**
+
+Laden Sie sich den Online-Editor Atom herunter und installieren Ihn auf Ihrem Rechner. In Atom können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script Plugins eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes ~~lia~~ eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen.
+
+<br/>
+2. [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) (Werkzeuge) für LIA installieren
+
+Nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell die zwei Plugins 'liascript-preview' und 'liascript-snippets', die Sie installieren sollten. Näheres zu den Plugins und deren Installation finden Sie [hier](#21).
+
+<br/>
+3. Geklontes **Repository laden**
+
+Nachdem Sie Ihr Repository (wie unter GitHub -> 4. *Repository für Atom klonen* beschrieben) geklont haben, wechseln Sie zu Atom, geben nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** ~~clone~~ in die Suche ein und bestätigen mit *Enter*. Unter *clone from* fügen Sie Ihren Link ein und passen unter *to directory* ggf. ihren Pfad an. Dort werden Sie ab sofort alle Ordner und Dateien bzgl. Ihres Kurses finden und können Bilder und Videos hinzufügen oder entfernen.
+
+
+## **Textdatei erstellen**
+
+Ihre geklonten Repositorys finden Sie nun links in Atom im 'Projektbaum'. Dort öffnen Sie die zu bearbeitende ReadMe-Datei mit einem Klick darauf und anschließend die Preview mit der Tastenkombination **Alt$+$L**. Diese Textdatei versehen Sie z.B. mit folgendem Kopf $^* $:
+
+```XML
+<!--
+author:   Your Name
+
+email:    your@mail.org
+
+version:  0.0.1
+
+language: de_DE
+
+narrator: DE FEMALE
+
+comment:  Try to write a short comment about
+          your course, multiline is also okay.
+
 -->
+```
 
 Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommentar zu Ihrem Kurs ein.
 
-Nun können Sie Ihr Inhaltsverzeichnis einfügen, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist zwei ## usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#4), [Videos](#5) oder [Links](#6).
+Daran anschließend generieren Sie Ihr Inhaltsverzeichnis $^* $, indem Sie vor jede Überschrift ein # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist, zwei ## usw. Zwischen Ihre Überschriften platzieren Sie ihre Texte, [Bilder](#8), [Videos](#9) oder [Links](#10). Um Absätze kenntlich zu machen, fügen Sie eine Leerzeile zwischen zwei Textblöcken ein. Für Aufzählungen, stellen Sie dem jeweiligen Anstrich einen Stern $ * $ mit einem Leerzeichen voran.
 
-![image](images/Ueberschriften.png)<!--
-style = "border: 1px solid; width: 80%; "
--->
+```markdown
+# Hauptüberschrift 1
 
-Die Überschriften unterteilen Ihren Kurs in Seiten. Durch diese können Sie entweder mit einem Klick auf die jeweilige Überschrift im Inhaltsverzeichnis oder mit den Pfeiltasten oben neben der Seitenzahl navigieren.
+Text
 
-Nach dem Speichern (Strg+S) der Datei, öffnen Sie die Preview (Alt+L). In dieser sehen Sie nun links Ihr Inhaltsverzeichnis. Das können Sie natürlich auch nach und nach anlegen und immer wieder editieren.
+## Überschrift 2
 
+Absatz 1
 
+Absatz 2
+
+### Überschrift 3
+
+Text
+
+* Erste Aufzählung
+* Zweite Aufzählung
+
+# Hauptüberschrift 2
+
+.
+.
+.
+```
+
+Die Überschriften unterteilen Ihren Kurs in Seiten. Durch diese können Sie in der Vorschau (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) entweder mit einem Klick auf die jeweilige Überschrift im Inhaltsverzeichnis oder mit den Pfeiltasten oben neben der Seitenzahl navigieren. Für eine aktuelle Vorschau speichern Sie Ihre Datei (**Strg$+$S**). Die Preview wird automatisch aktualisiert. In dieser sehen Sie links Ihr Inhaltsverzeichnis, welches Sie nach und nach anlegen und immer wieder editieren können.
 
 <br>
-
-<!--
-style = "color: red; width: 100%; "
--->
-Die Vorlage einbinden oder darauf verweisen?
+$^* $ Die Inhalte der Vorlagen können Sie kopieren und in Ihre Textdatei einfügen.
 
 
 ## **Einbinden von Medien**
@@ -97,7 +169,7 @@ Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt 
 
 **ERLÄUTERUNG**, wie und wo man Fotos oder Videos in welchen Ordnern ablegt!!!
 
-Um das Foto nun einzubinden, geben Sie in [Atom](https://atom.io/) innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist, dass das [Plugin](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) ~~liascript-snippets~~ installiert ist.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview bzw. später im Browser erscheint an dieser Stelle Ihr Foto.
+Um das Foto nun einzubinden, geben Sie in [Atom](https://atom.io/) innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist die Installation des [Plugin](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) ~~liascript-snippets~~.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) erscheint an dieser Stelle Ihr Foto.
 
 Sie können Ihr Foto mit einem Rahmen (border) versehen oder die Größe (width), in der es auf der Webseite zu sehen sein soll bestimmen:
 
@@ -151,21 +223,21 @@ Sie können diesen Link auch hinter einem Namen verstecken.
 
 [LIA](https://liascript.github.io/)
 
-Wenn Sie in ~~Atom~~ das Wort ~~link~~ eingeben und dann die Tabtaste betätigen, erscheint eine Vorlage:
+Wenn Sie in **Atom** das Wort ~~link~~ eingeben und dann die Tabtaste betätigen, erscheint eine Vorlage:
 
 `[name](url)`
 
 ---------
 Möchten Sie innerhalb Ihres Kurses auf eine andere Seite verweisen, können Sie dazu die jeweilige Seitennummer nutzen. Diese befindet sich oberhalb einer jeden Seite. Gehen Sie wie oben beschrieben vor. Geben Sie anstelle der URL die Seitenzahl ein und stellen sie der Seitenzahl ein # voran.
 
-`[Einbinden von Medien](#3)`
+`[Einbinden von Medien](#7)`
 
-[Einbinden von Medien](#3)
+[Einbinden von Medien](#7)
 
 
 ## **Visualisieren von Messdaten**
 
-Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den Vorlagen-Tabellen auf den folgenden Seiten befinden sich [Beispieldaten](#8) zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch *Ihre* Daten, indem Sie die Beispieldaten löschen ...
+Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den Vorlagen-Tabellen auf den folgenden Seiten befinden sich [Beispieldaten](#12) zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch *Ihre* Daten, indem Sie die Beispieldaten löschen ...
 
 ![image](images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
@@ -193,12 +265,12 @@ style = "width: 10%; "
 style = "width: 3%; "
 --> links unter dem Eingabefeld notwendig.
 
-## **->Beispiele**
+## **-> Beispiele**
 
-* [Zerspankräfte Drehen](#9)<br/>
-* [Rauheitskenngrößen](#10)<br/>
-* [Rauheitsprofile](#11)<br/>
-* [Durchmesser](#12)
+* [Zerspankräfte Drehen](#13)<br/>
+* [Rauheitskenngrößen](#14)<br/>
+* [Rauheitsprofile](#15)<br/>
+* [Durchmesser](#16)
 
 ### Zerspankräfte Drehen
 
@@ -206,8 +278,10 @@ style = "width: 3%; "
 0;1,5;2,4;0,2
 1;1,8;2,1;0,5
 2;1,1;2,9;0,8
+3;1,1;2,9;-0,8
 ```
 <script>
+
 let data = `@input`.replace(/,/g, ".");
 
 let split = data.match(/\d+(?:\.\d+)?|\-\d+(?:\.\d+)?/g);
@@ -1113,11 +1187,6 @@ style = "width: 2%; "
 style = "width: 2%; "
 -->.
 
-##Hochladen/Zugänglich machen des Kurses
-
-Um Ihren Kurs online verfügbar zu machen (das ist notwendig, um ihn in der Webumgebung eLab aufrufen zu können), müssen Sie ihre Textdatei zu [GitHub](https://github.com/) hochladen.
-
-[]!!!Erläuterung, wie man sich bei GitHub anmeldet (kurzes Video?) und dort Repositories erstellt und diese wiederum in Atom 'cloned'.!!!]
 
 # ~~**Schnelleinstieg eLab**~~
 
@@ -1133,7 +1202,7 @@ style = "width: 100%;
         border: 1px solid; "
 -->
 
-Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
+Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#27) oder [Ronny Stolze](#28).
 
 <br>
 ![image](images/Register-User.png)<!--
@@ -1143,31 +1212,43 @@ style = "width: 100%;
 
 ## Einbinden von Kursen
 
-Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren das Kontrollkästchen neben ~~Active~~. (In diesen Bereich gelangen Sie wieder über *eLab -> jeweiliger Kurs ->  Edit*)
+Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen (ink. URL $^* $) zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren Sie das Kontrollkästchen neben ~~Active~~. Einmal zugänglich, sollte ein Kurs nicht mehr verändert werden!!! (In diesen Bereich gelangen Sie wieder über *eLab -> jeweiliger Kurs ->  Edit*)
 
-<!--
-style="font-size: 14px;"
--->
-*Anmerkung: Für das Einbinden eines Kurses ist dessen URL erforderlich. Diese finden Sie bei [GitHub](https://github.com/). HIER UNBEDINGT ÜBERLEGEN, WIE DIE WEITERE VORGEHENSWEISE IST!!!*
+ $^* $ Die URL bekommen Sie auf der Seite von [GitHub](https://github.com/). Öffnen Sie dort den jeweiligen Kurs und klicken Sie auf die ReadMe-Datei. Rechts erscheint ein Button mit dem Namen 'Raw'. Nachdem Sie diesen betätigt haben, landen Sie auf einer Seite mit den Rohdaten zu Ihrem Kurs. Der Inhalt in der Adresszeile, ist die URL, die Sie für das Einpflegen in die Webumgebung eLab benötigen. Kopieren Sie diese und fügen Sie sie an entsprechender Stelle in der Webumgebung ein.
+
 
 ## Teilnehmereinsicht
 
 Um die Liste der angemeldeten Teilnehmer einzusehen, sind Administratorrechte erforderlich. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#21) oder [Ronny Stolze](#21).
 
 <br/>
+~~Kurse der Teilnehmer als 'bestanden' markieren~~
+
+Bis zu einer festgesetzten Frist hat der/die Studierende seine/ihre Arbeiten in den Kursen fertigzustellen. Gehen Sie nun im Menü auf ~~User~~ und schauen Sie sich jeweils mit einem Klick auf das Auge ![image](images/eye.png)<!--
+style = "width: 2%; "
+-->  und anschließend auf ~~Course~~ den bearbeiteten Kurs an. Möchten Sie diesen als absolviert kennzeichnen, klicken Sie - wiederum unter User -> Auge ![image](images/eye.png)<!--
+style = "width: 2%; "
+--> - auf ~~Edit~~ des jeweiligen Kurses und setzen ein Häkchen (*accomplished*). Bitte Bestätigen Sie den Buttons ~~Submit~~ und senden dem/der Studierenden eine kurze Mail mit dem Vermerk, dass dieser sich nun für das Praktikum vor Ort eintragen kann. (*Eine andere Vorgehensweise ist derzeit technisch leider nicht möglich.*)
+
 ~~Teilnehmer de-/aktivieren~~
 
-Gehen Sie im Menü auf ~~User~~, klicken auf das Auge und oben rechts auf ~~Edit~~. Setzen oder entfernen Sie je nach Vorhaben den Haken neben ~~active~~.
+Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
+style = "width: 2%; "
+--> und entfernen das Häkchen hinter ~~active~~.$ ^* $ Der Teilnehmer erhält nach dem nächsten Einloggen die folgende Nachricht:*Your Account has been deactivated, please contact your administrator*.
 
 ~~Teilnehmern eine bestimmte Rolle zuweisen~~
 
-Gehen Sie im Menü auf ~~User~~, klicken auf das Auge und oben rechts auf ~~Edit~~. Ändern Sie hier neben ~~Role~~ den jeweiligen Status.
+Gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen TeilnehmerIn auf den Bleistift ![image](images/pencil.png)<!--
+style = "width: 2%; "
+--> und ändern Sie hier neben ~~Role~~ den jeweiligen Status.$ ^* $
 
-
+$ ^* $ Alternativ klicken Sie auf das Auge ![image](images/eye.png)<!--
+style = "width: 2%; "
+--> und oben rechts auf ~~Edit~~.
 
 ## Tickets einsehen
 
-Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unter ~~Issues~~ ein Ticket erstellen. Diese finden Sie, wenn Sie in einen beliebigen Kurs gehen, das Drop-Down Menü unter ~~Admin~~ wählen und dort ~~Tickets~~ anklicken. Mit ~~Edit~~ können Sie dem Text etwas hinzufügen **[WOZU??? Für wen?]** und den Status ändern (*in progress, resolved, closed, etc.*) **[auch hier: WOFÜR? Für sich selbst als Gedankenstütze?]**.
+Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unter ~~Issues~~ ein 'Ticket' erstellen. Diese finden Sie, wenn Sie in einen beliebigen Kurs gehen, das Drop-Down Menü unter ~~Admin~~ wählen und dort ~~Tickets~~ anklicken. Mit ~~Edit~~ können Sie dem Text etwas hinzufügen und den Status ändern (*in progress, resolved, closed, etc.*). Diese Informationen sind ausschließlich vom Admin einzusehen.
 
 # **FAQ**
 
@@ -1175,15 +1256,15 @@ Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://
 
 ## LIA-Script
 
-`1.` Wie navigiere ich innerhab der Preview in Atom?
+`1.` Wie navigiere ich innerhalb der Preview in Atom?
 
 |Aktion|Shortcut|
 |---|---|
-|Preview einblenden |Alt+L |
-|Preview aktualisieren | Strg+S |
-|Preview zurücksetzen$*$ | Strg+S oder F5 |
-|zurück | Alt+links |
-|vor |Alt+rechts |
+|Preview einblenden |Alt$+$L |
+|Preview aktualisieren | Strg$+$S |
+|Preview zurücksetzen$*$ | Strg$+$S oder F5 |
+|zurück | Alt$+$links |
+|vor |Alt$+$rechts |
 
 $ * $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
@@ -1191,15 +1272,15 @@ $ * $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 `2.` Wie installiere ich die Plugins für Atom?
 
-Nach Eingabe folgender Tastenkombination ~~Strg+Shift+P~~ geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis ~~Settings View: Install Packages and Themes~~ erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
+Nach Eingabe folgender Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
 
 <br>
 
 `3.` Was kann ich mit den Plugins anfangen?
 
-Das Plugin ~~liascript-preview~~ bietet Ihnen bspw. die Möglichkeit, eine Voransicht Ihres Kurses, wie er im Browser erscheinen wird, anzusehen und auszuprobieren, ob Bilder und Videos so erscheinen, wie Sie das wünschen oder ob Links funktionieren.
+Das Plugin **liascript-preview** bietet Ihnen bspw. die Möglichkeit, eine Voransicht Ihres Kurses, wie er im Browser erscheinen wird, anzusehen und auszuprobieren, ob Bilder und Videos so erscheinen, wie Sie das wünschen oder ob Links funktionieren.
 
-Das Plugin ~~liascript-snippets~~ hilft Ihnen dabei, Befehle zur Erstellung von bspw. Links zu finden bzw. zur Einbindung von Medien. Dazu geben Sie im Editor  ~~lia~~ (oder den Suchbegriff) ein und es erscheinen einige Vorschläge.
+Das Plugin **liascript-snippets** hilft Ihnen dabei, Befehle zur Erstellung von bspw. Links zu finden bzw. zur Einbindung von Medien. Dazu geben Sie im Editor  ~~lia~~ (oder den Suchbegriff) ein und es erscheinen einige Vorschläge.
 
 <br>
 
@@ -1212,37 +1293,13 @@ Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/
 style = "width: 2%; "
 --> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
+`2.` Teilnehmer deaktivieren
 
-# JS-Code
+Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
+style = "width: 2%; "
+--> und entfernen das Häkchen hinter ~~active~~. Der Teilnehmer erhält nach dem Einloggen die folgende Nachricht:*Your Account has been deactivated, please contact your administrator*.
 
-HTML Code zum einbetten in die Seite (File Input)
-```html
-<input type="file" onchange="getFileContent(this.files)">
-<pre id="content">
-</pre>
-```
 
-JS Code zum auslesen der Dateien
-```js
-window.getFileContent = (files) => {
-	if (files.length !== 1) {
-  	// Sicherstellen, dass nur eine Datei hochgeladen wurde.
-    return;
-  }
-  const reader = new FileReader();
-  reader.addEventListener("loadend", () => {
-  	// in reader.result stehen die bytes
-    // also müssen wir es noch in text umwandeln.
-
-    const decoder = new TextDecoder();
-    const textValue = decoder.decode(reader.result);
-
-    // Jetzt kannst du dinge mit dem text machen
-  	document.getElementById("content").innerText = textValue;
-  });
-  reader.readAsArrayBuffer(files[0]);
-}
-```
 
 # Kontakt
 
