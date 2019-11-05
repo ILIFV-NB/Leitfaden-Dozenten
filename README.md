@@ -201,7 +201,11 @@ Für das Finden der URL, öffnen Sie Ihren Kurs auf [GitHub](https://github.com)
 <br/>
 ~~Videos aus dem **Internet** (YouTube)~~
 
+<<<<<<< HEAD
 Sie können aber auch ein Video aus dem Internet (z.B. YouTube) einbinden.
+=======
+Sie können aber auch ein Video **aus dem Internet** (z.B. YouTube) einbinden.
+>>>>>>> 655b84526bcea49548af5f77db9cd085e46dcac0
 
 Dazu öffnen Sie das gewünschte Video auf YouTube, klicken mit der rechten Maustaste darauf und wählen ~~Einbettungscode kopieren~~. Diesen platzieren Sie an entsprechender Stelle in ihrem Dokument. Der Code beinhaltet bereits Größenangaben des anzuzeigenden Videos. Diese können Sie gern anpassen.
 
