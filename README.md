@@ -165,19 +165,42 @@ Auf den folgenden Seiten finden Sie Möglichkeiten, Bilder, Videos oder Links in
 
 ### Bilder
 
-Um ein Bild einzubinden, muss dieses in dem zugehörigen Projektordner abgelegt sein. Dieser befindet sich in der Regel lokal auf Ihrem Rechner im Ordner ~~GitHub~~ (synchronisiert mit dem Projektordner auf GitHub) und trägt idealerweise den Namen Ihres Kurses. In jedem Projektordner sollten Sie Ordner anlegen, die eigens für Fotos bzw. Videos zur Verfügung stehen. Diese können bspw. *images* bzw. *movies* heißen. (Weitere Erläuterungen unter [GitHub -> 4.](#4) bzw. [Atom -> 3.](#5))
+Um ein Bild einzubinden, gibt es verschiedene Möglichkeiten.
 
-Geben Sie in Atom innerhalb Ihrer Textdatei ~~img~~ ein und drücken die ~~Tabtaste~~. Es erscheint `![]()`. (Voraussetzung dafür ist die Installation des [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) *liascript-snippets*.) In die eckigen Klammern geben Sie einen Hinweis ein, der Ihnen verrät, um welche Art Datei es sich handelt. Wenn Sie ein Foto einbinden, kann dies z.B. das Wort *image* sein. In die runden Klammern wird der Pfad innerhalb des Projektordners eingetragen. Haben Sie Ihren Fotoordner *images* genannt und das Foto heißt *ErstesKursFoto.png*, sieht der Pfad wie folgt aus: `![image](images/ErstesKursFoto.png)`. In der Preview (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) erscheint an dieser Stelle Ihr Foto.
+~~Bilder aus dem **Projektordner**~~
 
-Sie können Ihr Foto mit einem Rahmen (border) versehen oder die Größe (width), in der es auf der Webseite zu sehen sein soll, bestimmen ...
+Ein Bild, das sich in Ihrem Projektordner (also lokal auf ihrem Rechner bzw. online bei GitHub) befindet, binden Sie mittels URL ein. Nutzen Sie dazu folgende Vorlage:
 
-`![image](images/ErstesKursFoto.png)<!--`
+`![image](image-url)`
+
+Für das Finden der URL, öffnen Sie Ihren Kurs auf [GitHub](https://github.com) und dort den jeweiligen Ordner, in dem sich Ihr Bild befindet. Nach Anklicken des Bildes erscheint ihr Bild in einer Voranzeige. Im Kontextmenü des Bildes (rechte Maustaste) wählen Sie *Grafikadresse kopieren*. Diese fügen Sie in die runden Klammern ein.
+
+`![image](https://raw.githubusercontent.com/ILIFV-NB/TestKurs/master/ErstesKursFoto.png)`
+
+In der Preview (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) erscheint an dieser Stelle Ihr Foto.
+
+<br/>
+~~Bilder aus dem **Internet**~~
+
+Sie können aber auch ein Foto aus dem Internet einbinden.
+
+Dazu öffnen Sie das gewünschte Foto im Internet, kopieren die Adresszeile und platzieren diese in den runden Klammern.
+
+`![image](https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_1280.jpg)`
+
+![image](https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_1280.jpg)<!--
+style = "width: 80%; "
+-->
+
+Um Ihr Foto mit einem Rahmen (border) zu versehen oder die Größe (width) anzupassen, ergänzen Sie den Pfad durch entsprechende Angaben ...
+
+`![image](https://cdn.pixabay.com/photo/2019/11/02/21/45/maple-leaf-4597501_1280.jpg)<!--`
 <br/>
 `style = "border: 1px solid; width: 80%; "`
 <br/>
 `-->`
 
-... oder [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) nach weiteren Inspirationen schauen.
+... oder schauen sich [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) nach weiteren Inspirationen um.
 
 
 ### Videos
@@ -198,18 +221,18 @@ Für das Finden der URL, öffnen Sie Ihren Kurs auf [GitHub](https://github.com)
 <br/>
 `-->`
 
+In der Preview (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) erscheint an dieser Stelle Ihr Video.
+
 <br/>
 ~~Videos aus dem **Internet** (YouTube)~~
 
-<<<<<<< HEAD
 Sie können aber auch ein Video aus dem Internet (z.B. YouTube) einbinden.
-=======
-Sie können aber auch ein Video **aus dem Internet** (z.B. YouTube) einbinden.
->>>>>>> 655b84526bcea49548af5f77db9cd085e46dcac0
 
 Dazu öffnen Sie das gewünschte Video auf YouTube, klicken mit der rechten Maustaste darauf und wählen ~~Einbettungscode kopieren~~. Diesen platzieren Sie an entsprechender Stelle in ihrem Dokument. Der Code beinhaltet bereits Größenangaben des anzuzeigenden Videos. Diese können Sie gern anpassen.
 
 `<iframe width="793" height="446" src="https://www.youtube.com/embed/bICfKRyKTwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+
+<iframe width="533" height="300" src="https://www.youtube.com/embed/bICfKRyKTwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Links
@@ -245,7 +268,7 @@ Möchten Sie innerhalb Ihres Kurses auf eine andere Seite verweisen, nutzen Sie 
 
 Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den Vorlagen-Tabellen auf den folgenden Seiten befinden sich [Beispieldaten](#12) zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
 
-![image](images/Eingabefeld-Kraftverlauf.png)<!--
+![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
 -->
 
