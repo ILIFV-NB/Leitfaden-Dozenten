@@ -57,13 +57,7 @@ Um Kurse online zur Verfügung zu stellen, benötigen Sie eine Plattform (bspw. 
 <br/>
 2. **Repository** erstellen $ ^* $ (inkl. ReadMe-Datei)
 
-Wenn Sie auf GitHub angemeldet sind, finden Sie auf der Seite rechts oben ein $+$-Zeichen. Im Dropdown-Menü klicken Sie auf *New repository*. (Alternative: Nach Klick auf das Katzensymbol ![image](images/Katze.png)<!--
-style = "width: 2%; "
---> in der linken oberen Ecke erscheint ein *New*-Button ![image](images/New_Repository.png)<!--
-style = "width: 5%; "
--->.) Hier vergeben Sie einen (Kurs-)Namen, geben optional eine kurze Beschreibung ein und entscheiden, ob das **Repository** gleich öffentlich sein soll oder zunächst privat$ ^{* * } $. Um direkt eine ReadMe-Datei (Textdatei) zu erstellen, die Sie als Grundlage für Ihren Kursinhalt benötigen, setzen Sie vor *Initialize this repository with a README* einen Haken. Mit *Create repository* bestätigen Sie Ihren Vorgang. Ihr Repository wird nun auf der Seite links oben sichtbar ![image](images/Katze.png)<!--
-style = "width: 2%; "
--->.
+Wenn Sie auf GitHub angemeldet sind, finden Sie auf der Seite rechts oben ein $+$-Zeichen. Im Dropdown-Menü klicken Sie auf *New repository*. (Alternative: Nach Klick auf das GitHub Logo/Katzensymbol in der linken oberen Ecke, erscheint ein *New*-Button.) Hier vergeben Sie einen (Kurs-)Namen, geben optional eine kurze Beschreibung ein und entscheiden, ob das **Repository** gleich öffentlich sein soll oder zunächst privat$ ^{* * } $. Um direkt eine ReadMe-Datei (Textdatei) zu erstellen, die Sie als Grundlage für Ihren Kursinhalt benötigen, setzen Sie vor *Initialize this repository with a README* einen Haken. Mit *Create repository* bestätigen Sie Ihren Vorgang. Ihr Repository wird nun auf der Seite links oben nach Klick auf das GitHub Logo sichtbar.
 
 <br/>
 3. Fotos und Videos hochladen (oder später lokal)
@@ -73,11 +67,7 @@ Nachdem Sie Ihr Repository geöffnet haben, sehen Sie einen Button mit dem Namen
 <br/>
 4. Repository für Atom **klonen**
 
-Sie haben nun die Möglichkeit, Ihren Kurs im Online-Editor Atom zu laden und dort zu bearbeiten. Öffnen Sie dazu ihren Kurs auf GitHub ![image](images/Katze.png)<!--
-style = "width: 2%; "
--->, klicken rechts über Ihrem Kurs auf *Clone or download* ![image](images/clone.png)<!--
-style = "width: 12%; "
---> und kopieren Sie den Link. Mithilfe dieses Links werden die Inhalte des Repositorys lokal auf Ihrem Rechner gespeichert und können dort mit Material befüllt werden (Alternative -> direkt in GitHub). Für nähere Erläuterungen und die weitere Vorgehensweise schauen Sie sich bitte das Kapitel [Atom](#5) -> *3. Geklontes Repository laden* an.
+Sie haben nun die Möglichkeit, Ihren Kurs im Online-Editor Atom zu laden und dort zu bearbeiten. Öffnen Sie dazu ihren Kurs auf GitHub, klicken rechts über Ihrem Kurs auf *Clone or download* und kopieren Sie den Link. Mithilfe dieses Links werden die Inhalte des Repositorys lokal auf Ihrem Rechner gespeichert und können dort mit Material befüllt werden (Alternative -> direkt in GitHub). Für nähere Erläuterungen und die weitere Vorgehensweise schauen Sie sich bitte das Kapitel [Atom](#5) -> *3. Geklontes Repository laden* an.
 
 <br/>
 $^* $ [Hier](https://guides.github.com/activities/hello-world/) finden Fortgeschrittene nähere Informationen zum Erstellen und Bearbeiten eines Repositorys.
@@ -274,25 +264,17 @@ style = "width: 100%; "
 
 ...  und Ihre Daten hineinkopieren.
 
-![image](images/Textdatei-Kraftverlauf.png)<!--
+![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Textdatei-Kraftverlauf.png)<!--
 style = "width: 100%; "
 -->
 
-Ein Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
-style = "width: 3%; "
---> unten links macht aus Ihren Daten ein Diagramm. Dieses können Sie als Bilddatei herunterladen ![image](images/download.png)<!--
-style = "width: 3%; "
---> und speichern. Um einzelne Graphen auszublenden, klicken Sie auf das jeweilige Symbol in der Legende.
+Ein Klick auf den Pfeil unten links macht aus Ihren Daten ein Diagramm. Dieses können Sie als Bilddatei herunterladen (Pfeilsymbol oben rechts) und speichern. Um einzelne Graphen auszublenden, klicken Sie auf das jeweilige Symbol in der Legende.
 
-![image](images/Diagramm-Kraftverlauf.png)<!--
+![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Diagramm-Kraftverlauf.png)<!--
 style = "width: 100%; "
 -->
 
-Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile ![image](images/Pfeile-grau.png)<!--
-style = "width: 10%; "
--->, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
-style = "width: 3%; "
---> links unter dem Eingabefeld notwendig.
+Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den blauen Pfeil links unter dem Eingabefeld notwendig.
 
 ## **-> Beispiele**
 
@@ -1206,17 +1188,9 @@ function plotData(t5, x5) {
 
 * Für das Einbinden obiger Tabellen in ihren Kurs, benötigen Sie einen längeren Code, den sie aus der Textdatei für diese Online-Hilfe, in der Sie sich befinden, kopieren können. Die Vorgehensweise schauen Sie sich bitte unter [*FAQ -> LIA-Script -> 4. Textdateien visualisieren*](#24) an.
 
-* Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den Pfeil ![image](images/Pfeil-blau.png)<!--
-style = "width: 3%; "
---> unter dem Eingabefeld erzeugt ein neues Diagramm.
-* Um sich einen Ausschnitt im Diagramm näher anzuschauen, klicken Sie über dem Diagramm auf das Zoom-Icon ![image](images/Zoom.png)<!--
-style = "width: 2.5%; "
---> und wählen den zu betrachtenden Bereich im Diagramm aus. Den Ausgangszustand erhalten Sie mit Zoom-Reset ![image](images/Reset.png)<!--
-style = "width: 2%; "
--->.
-* Wenn Sie erfahren möchten, welche Daten das aktuelle Diagramm beinhaltet, klicken Sie auf das Icon in Form eines Dokumentes ![image](images/Dok.png)<!--
-style = "width: 2%; "
--->.
+* Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den blauen Pfeil unter dem Eingabefeld erzeugt ein neues Diagramm.
+* Um sich einen Ausschnitt im Diagramm näher anzuschauen, klicken Sie über dem Diagramm auf das Zoom-Icon und wählen den zu betrachtenden Bereich im Diagramm aus. Den Ausgangszustand erhalten Sie mit Zoom-Reset.
+* Wenn Sie erfahren möchten, welche Daten das aktuelle Diagramm beinhaltet, klicken Sie auf das Icon in Form eines Dokumentes.
 
 
 # ~~**Schnelleinstieg eLab**~~
@@ -1228,7 +1202,7 @@ Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung eLab. Di
 Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
 
 <br>
-![image](images/Register.jpg)<!--
+![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Register.jpg)<!--
 style = "width: 100%;
         border: 1px solid; "
 -->
@@ -1236,7 +1210,7 @@ style = "width: 100%;
 Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#26) oder [Ronny Stolze](#26).
 
 <br>
-![image](images/Register-User.png)<!--
+![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Register-User.png)<!--
 style = "width: 100%;
         border: 1px solid; "
 -->
@@ -1255,27 +1229,17 @@ Um die Liste der angemeldeten Teilnehmer einzusehen, sind Administratorrechte er
 <br/>
 ~~Kurse der Teilnehmer als 'bestanden' markieren~~
 
-Bis zu einer festgesetzten Frist hat der/die Studierende seine/ihre Arbeiten in den Kursen fertigzustellen. Gehen Sie nun im Menü auf ~~User~~ und schauen Sie sich jeweils mit einem Klick auf das Auge ![image](images/eye.png)<!--
-style = "width: 2%; "
--->  und anschließend auf ~~Course~~ den bearbeiteten Kurs an. Möchten Sie diesen als absolviert kennzeichnen, klicken Sie - wiederum unter User -> Auge ![image](images/eye.png)<!--
-style = "width: 2%; "
---> - auf ~~Edit~~ des jeweiligen Kurses und setzen ein Häkchen (*accomplished*). Bitte Bestätigen Sie den Button ~~Submit~~ und senden dem/der Studierenden eine kurze Mail mit dem Vermerk, dass dieser sich nun für das Praktikum vor Ort eintragen kann. (*Eine andere Vorgehensweise ist derzeit technisch leider nicht möglich.*)
+Bis zu einer festgesetzten Frist hat der/die Studierende seine/ihre Arbeiten in den Kursen fertigzustellen. Gehen Sie nun im Menü auf ~~User~~ und schauen Sie sich jeweils mit einem Klick auf das Auge und anschließend auf ~~Course~~ den bearbeiteten Kurs an. Möchten Sie diesen als absolviert kennzeichnen, klicken Sie - wiederum unter User -> Auge - auf ~~Edit~~ des jeweiligen Kurses und setzen ein Häkchen (*accomplished*). Bitte Bestätigen Sie den Button ~~Submit~~ und senden dem/der Studierenden eine kurze Mail mit dem Vermerk, dass dieser sich nun für das Praktikum vor Ort eintragen kann. (*Eine andere Vorgehensweise ist derzeit technisch leider nicht möglich.*)
 
 ~~Teilnehmer de-/aktivieren~~
 
-Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
-style = "width: 2%; "
---> und entfernen das Häkchen hinter ~~active~~.$ ^* $ Der Teilnehmer erhält nach dem nächsten Einloggen die folgende Nachricht:*Your Account has been deactivated, please contact your administrator*.
+Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und entfernen das Häkchen hinter ~~active~~.$ ^* $ Der Teilnehmer erhält nach dem nächsten Einloggen die folgende Nachricht:*Your Account has been deactivated, please contact your administrator*.
 
 ~~Teilnehmern eine bestimmte Rolle zuweisen~~
 
-Gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen TeilnehmerIn auf den Bleistift ![image](images/pencil.png)<!--
-style = "width: 2%; "
---> und ändern Sie hier neben ~~Role~~ den jeweiligen Status.$ ^* $
+Gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen TeilnehmerIn auf den Bleistift und ändern Sie hier neben ~~Role~~ den jeweiligen Status.$ ^* $
 
-$ ^* $Alternativ klicken Sie auf das Auge ![image](images/eye.png)<!--
-style = "width: 2%; "
---> und oben rechts auf ~~Edit~~.
+$ ^* $Alternativ klicken Sie auf das Auge und oben rechts auf ~~Edit~~.
 
 ## Tickets einsehen
 
@@ -1293,11 +1257,11 @@ Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://
 |---|---|
 |Preview einblenden |Alt$+$L |
 |Preview aktualisieren | Strg$+$S |
-|Preview zurücksetzen$*$ | Strg$+$S oder F5 |
+|Preview zurücksetzen$^*$ | Strg$+$S oder F5 |
 |zurück | Alt$+$links |
 |vor |Alt$+$rechts |
 
-$ * $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
+$^* $nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 <br>
 
@@ -1324,15 +1288,11 @@ Um Tabellen wie unter [Visualisieren von Messdaten](#11) in Ihrem Kurs zu nutzen
 
 `1.` Vorgehensweise, wenn ein(e) Studierende(r) das Passwort vergessen hat.
 
-Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
-style = "width: 2%; "
---> und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
+Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
 `2.` Teilnehmer deaktivieren
 
-Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift ![image](images/pencil.png)<!--
-style = "width: 2%; "
---> und entfernen das Häkchen hinter ~~active~~. Der Teilnehmer erhält nach dem Einloggen die folgende Nachricht:*Your Account has been deactivated, please contact your administrator*.
+Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und entfernen das Häkchen hinter ~~active~~. Der Teilnehmer erhält nach dem Einloggen die folgende Nachricht: *Your Account has been deactivated, please contact your administrator*.
 
 
 
