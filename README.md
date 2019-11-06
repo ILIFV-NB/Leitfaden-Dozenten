@@ -1193,6 +1193,17 @@ function plotData(t5, x5) {
 * Wenn Sie erfahren möchten, welche Daten das aktuelle Diagramm beinhaltet, klicken Sie auf das Icon in Form eines Dokumentes.
 
 
+## **Online stellen/aktualisieren**
+
+Während Sie Ihre Kurse in Atom bearbeiten und die Voransicht (Strg$+$L) durch Speichern (Strg$+$S) aktualisieren, bleibt diese Version lediglich lokal. Um sie auch online zugänglich zu machen, müssen Sie Ihr Dokument zu GitHub hochladen.
+
+Am Fuß der Software Atom finden Sie eine Beschriftung namens **Git**. Wenn Sie darauf klicken, öffnet sich rechts neben Ihrer Voransicht ein Bereich, in dessen oberem Teil sie Elemente sehen, die verändert wurden. Das wird in jedem Fall die ReadMe-Datei sein sowie ggf. hinzugefügte oder entfernte Fotos oder Videos. Sobald Sie die Änderungen online einpflegen möchten, klicken Sie auf **Stage All**. Die Elemente wandern in den unteren Teil der Ansicht und sind somit bereit, veröffentlicht zu werden.
+
+Hierzu geben Sie in das Feld mit dem Inhalt 'Commit message' einen Hinweis ein, der zu Ihren Änderungen passt und bestätigen mit **Commit to master**.
+
+Wiederum am unteren Rand der Software erscheint der Hinweis **push 1**. Mit einem Klick darauf senden Sie die aktuelle Version Ihres Kurses zu GitHub, welche Sie wenige Sekunden später dort auffinden.
+
+
 # ~~**Schnelleinstieg eLab**~~
 
 Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung eLab. Dies betrifft u.a. den Zugang zur Webumgebung, das Einbinden von Kursen sowie das Einsehen von Teilnehmern und den Stand derer Kurse.
