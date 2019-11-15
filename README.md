@@ -18,14 +18,12 @@ script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 
 # Allgemeines
 
-Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Script](https://liascript.github.io/) sowie die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
+Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Script](#2) sowie die [Webumgebung eLab](#20).
 
-**LIA-Script** ist eine von André Dietrich entwickelte erweiterte Markdownsprache, mithilfe derer Sie Ihren Kurs ohne Programmierkenntnisse aufbauen können. Auf den folgenden Seiten bekommen Sie einen Überblick über das Arbeiten mit LIA-Script. Darüber hinaus erfahren Sie in der [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) (englisch) alles, was Sie über LIA-Script wissen müssen und, was Sie damit anstellen können. Eine verkürzte Version auf Deutsch finden Sie [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/demo/master/README.md#1).
+[LIA-Script](https://liascript.github.io/) ist eine von André Dietrich entwickelte erweiterte Markdownsprache, mithilfe derer Sie Ihren Kurs ohne Programmierkenntnisse aufbauen können. Auf den folgenden Seiten bekommen Sie einen Überblick über das Arbeiten mit LIA-Script. Darüber hinaus erfahren Sie in der [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) (englisch) alles, was Sie über LIA-Script wissen müssen und, was Sie damit anstellen können. Eine verkürzte Version auf Deutsch finden Sie [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/demo/master/README.md#1).
 
-Die **Webumgebung eLab** ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
+Die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
 
-<br/>
-Bei Fragen wenden Sie sich zudem gern an: [Nancy Brinkmann](#26) oder [Ronny Stolze](#26).
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
@@ -36,7 +34,7 @@ Bevor Sie einen Kurs erstellen können, sind einige [Vorbereitungen](#3) zu tref
 
 ##**Vorbereitungen**
 
-Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine ~~Textdatei~~, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie mithilfe von aktuell zwei Werkzeugen für LIA-Script ([Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search)) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen. (Näheres zu den Plugins finden Sie [hier](#24).)
+Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie mithilfe von aktuell zwei Werkzeugen für LIA-Script (Plugins: [liascript-preview](https://atom.io/packages/liascript-preview) und [liascript-snippets](https://atom.io/packages/liascript-snippets)) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen. (Näheres zu den Plugins finden Sie [hier](#26).)
 
 Um Ihre Kurse online zur Verfügung stellen zu können, nutzen wir eine Plattform: [GitHub](https://github.com/). Mithilfe dieser Plattform sind Sie in der Lage, Ihre Kurse samt Medien zu verwalten, Sie gemeinsam mit Kollegen zu bearbeiten sowie Abzweigungen zu erstellen, wenn Sie sich einmal nicht sicher sind, in welche Richtung Ihr Format gehen soll.
 
@@ -79,12 +77,12 @@ $^{* * } $ Ihr Kurs wird erst dann für andere zugänglich sein, wenn Sie den St
 <br/>
 1. Online Editor [Atom](https://atom.io/) **installieren**
 
-Laden Sie sich den Online-Editor Atom herunter und installieren Ihn auf Ihrem Rechner. In Atom können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script Plugins eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes ~~lia~~ eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen.
+Laden Sie sich den Online-Editor Atom herunter und installieren Ihn auf Ihrem Rechner. In Atom können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script Plugins (siehe Punkt 2) eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes *lia* eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen.
 
 <br/>
 2. [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) (Werkzeuge) für LIA installieren
 
-Nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell die zwei Plugins **liascript-preview** und **liascript-snippets**, die Sie installieren sollten. Näheres zu den Plugins und deren Installation finden Sie [hier](#24).
+Nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell die zwei Plugins *liascript-preview* und *liascript-snippets*, die Sie installieren sollten. Näheres zu den Plugins und deren Installation finden Sie [hier](#26).
 
 <br/>
 3. Geklontes **Repository laden**
@@ -94,7 +92,7 @@ Nachdem Sie Ihr Repository (wie unter GitHub -> 4. *Repository für Atom klonen*
 
 ## **Textdatei erstellen**
 
-Ihre geklonten Repositories finden Sie nun links im 'Projektbaum' in Atom. Dort öffnen Sie die zu bearbeitende ReadMe-Datei mit einem Klick darauf und anschließend die Preview mit der Tastenkombination **Alt$+$L**. Diese Textdatei versehen Sie z.B. mit folgendem Kopf$^* $:
+Ihre geklonten Repositories finden Sie nun links im 'Projektbaum' in Atom. Dort öffnen Sie die zu bearbeitende ReadMe-Datei$^* $ mit einem Klick darauf und anschließend die Preview mit der Tastenkombination **Alt$+$L**. Diese Textdatei versehen Sie z.B. mit folgendem Kopf$^{**} $:
 
 ```XML
 <!--
@@ -116,7 +114,7 @@ comment:  Try to write a short comment about
 
 Tragen Sie hier Ihren Namen und Ihre E-Mail Adresse sowie einen kleinen Kommentar zu Ihrem Kurs ein.
 
-Daran anschließend generieren Sie Ihr Inhaltsverzeichnis$^* $, indem Sie vor jede Überschrift eine # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist, zwei ## usw. Zwischen Ihren Überschriften platzieren Sie ihre Texte, [Bilder](#8), [Videos](#9) oder [Links](#10). Um Absätze kenntlich zu machen, fügen Sie eine Leerzeile zwischen zwei Textblöcken ein. Für Aufzählungen stellen Sie dem jeweiligen Anstrich einen Stern $ * $ mit einem Leerzeichen voran.
+Daran anschließend generieren Sie Ihr Inhaltsverzeichnis$^{**} $, indem Sie vor jede Überschrift eine # setzen, und vor jede weitere Überschrift, die der oberen zuzuordnen ist, zwei ## usw. Zwischen Ihren Überschriften platzieren Sie ihre Texte, [Bilder](#8), [Videos](#9) oder [Links](#10). Um Absätze kenntlich zu machen, fügen Sie eine Leerzeile zwischen zwei Textblöcken ein. Für Aufzählungen stellen Sie dem jeweiligen Anstrich einen Stern $ * $ mit einem Leerzeichen voran.
 
 ```markdown
 # Hauptüberschrift 1
@@ -146,7 +144,9 @@ Text
 Die Überschriften unterteilen Ihren Kurs in Seiten. Durch diese können Sie in der Vorschau (**Alt$+$L**) bzw. im Browser (**Strg$+$N**) entweder mit einem Klick auf die jeweilige Überschrift im Inhaltsverzeichnis oder mit den Pfeiltasten oben neben der Seitenzahl navigieren. Für eine aktuelle Vorschau speichern Sie Ihre Datei (**Strg$+$S**). Die Preview wird daraufhin automatisch aktualisiert.
 
 <br>
-$^* $ Die Inhalte der Vorlagen können Sie kopieren und in Ihre Textdatei einfügen.
+$^* $Sollte sich keine ReadMe-Datei im Projektbaum innerhalb Ihres Projektordners auffinden lassen, können Sie diese in Atom unter File -> New File selbst erstellen.
+
+$^{**} $Die Inhalte der Vorlagen können Sie kopieren und in Ihre Textdatei einfügen.
 
 
 ## **Einbinden von Medien**
@@ -256,7 +256,12 @@ Möchten Sie innerhalb Ihres Kurses auf eine andere Seite verweisen, nutzen Sie 
 
 ## **Visualisieren von Messdaten**
 
-Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien zu visualisieren. In den Vorlagen-Tabellen auf den folgenden Seiten befinden sich [Beispieldaten](#12) zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
+Nachfolgend finden Sie einige Möglichkeiten, Messdaten aus Textdateien (wie z.B. aus Rauheits- oder Kraftmessungen) in Form von Diagrammen zu visualisieren. [Hier](#26) gibt es eine kleine Anleitung für das Einbinden in Ihren Kurs (Punkt 4).
+
+
+## **-> Beispiel**
+
+In den [Vorlagen-Tabellen](#13) auf den folgenden Seiten befinden sich Beispieldaten zur Veranschaulichung der jeweiligen Visualisierung. Diese Daten ersetzen Sie ganz einfach durch Ihre Daten, indem Sie die Beispieldaten löschen ...
 
 ![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Eingabefeld-Kraftverlauf.png)<!--
 style = "width: 100%; "
@@ -276,12 +281,12 @@ style = "width: 100%; "
 
 Wenn Sie weitere Daten einlesen möchten, löschen Sie die vorherigen Daten aus dem Eingabefeld, kopieren Ihre neuen Daten hinein und führen die Visualisierung wie oben beschrieben durch. Rechts unter dem Eingabefeld befinden sich Pfeile, mit Hilfe derer sie zu allen eingegebenen Daten navigieren können. Für die neue Visualisierung ist jeweils ein Klick auf den blauen Pfeil links unter dem Eingabefeld notwendig.
 
-## **-> Beispiele**
+## **-> Vorlagen**
 
-* [Zerspankräfte Drehen](#13)<br/>
-* [Rauheitskenngrößen](#14)<br/>
-* [Rauheitsprofile](#15)<br/>
-* [Durchmesser](#16)
+* [Zerspankräfte Drehen](#14)<br/>
+* [Rauheitskenngrößen](#15)<br/>
+* [Rauheitsprofile](#16)<br/>
+* [Durchmesser](#17)
 
 ### Zerspankräfte Drehen
 
@@ -1186,7 +1191,7 @@ function plotData(t5, x5) {
 
 ## **-> Hinweise**
 
-* Für das Einbinden obiger Tabellen in ihren Kurs, benötigen Sie einen längeren Code, den sie aus der Textdatei für diese Online-Hilfe, in der Sie sich befinden, kopieren können. Die Vorgehensweise schauen Sie sich bitte unter [*FAQ -> LIA-Script -> 4. Textdateien visualisieren*](#24) an.
+* Für das Einbinden obiger Tabellen in ihren Kurs, benötigen Sie einen längeren Code, den sie aus der Textdatei für diese Online-Hilfe, in der Sie sich befinden, kopieren können. Die Vorgehensweise schauen Sie sich bitte unter [*FAQ -> LIA-Script -> 4. Textdateien visualisieren*](#26) an.
 
 * Betätigen der Funktionstaste F5 aktualisiert die Seite und lässt alle Diagramme verschwinden. Ein erneuter Klick auf den blauen Pfeil unter dem Eingabefeld erzeugt ein neues Diagramm.
 * Um sich einen Ausschnitt im Diagramm näher anzuschauen, klicken Sie über dem Diagramm auf das Zoom-Icon und wählen den zu betrachtenden Bereich im Diagramm aus. Den Ausgangszustand erhalten Sie mit Zoom-Reset.
@@ -1199,7 +1204,7 @@ Während Sie Ihre Kurse in Atom bearbeiten und die Voransicht (Strg$+$L) durch S
 
 Am Fuß der Software Atom finden Sie eine Beschriftung namens **Git**. Wenn Sie darauf klicken, öffnet sich rechts neben Ihrer Voransicht ein Bereich, in dessen oberem Teil sie Elemente sehen, die verändert wurden. Das wird in jedem Fall die ReadMe-Datei sein sowie ggf. hinzugefügte oder entfernte Fotos oder Videos. Sobald Sie die Änderungen online einpflegen möchten, klicken Sie auf **Stage All**. Die Elemente wandern in den unteren Teil der Ansicht und sind somit bereit, veröffentlicht zu werden.
 
-Hierzu geben Sie in das Feld mit dem Inhalt 'Commit message' einen Hinweis ein, der zu Ihren Änderungen passt und bestätigen mit **Commit to master**.
+Hierzu geben Sie in das Feld mit dem Inhalt 'Commit message' einen Hinweis ein, der etwas über die getätigten Änderungen aussagt (z.B. "Kapitel 3 eingefügt" oder "Fotos ergänzt") und bestätigen mit **Commit to master**.
 
 Wiederum am unteren Rand der Software erscheint der Hinweis **push 1**. Mit einem Klick darauf senden Sie die aktuelle Version Ihres Kurses zu GitHub, welche Sie wenige Sekunden später dort auffinden.
 
@@ -1218,7 +1223,7 @@ style = "width: 100%;
         border: 1px solid; "
 -->
 
-Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#26) oder [Ronny Stolze](#26).
+Hier klicken Sie rechts oben auf *Register* und geben in der folgenden Maske Ihre Nutzerdaten ein. Mit einem Klick auf *Submit* sind Sie als User gespeichert. In dieser Rolle können Sie sich bereits eingepflegte Kurse ansehen. Um eigene Kurse einzubinden, benötigen Sie einen Zugang als Administrator. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#28) oder [Ronny Stolze](#28).
 
 <br>
 ![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Register-User.png)<!--
@@ -1235,7 +1240,7 @@ Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf de
 
 ## Teilnehmereinsicht
 
-Um die Liste der angemeldeten Teilnehmer einzusehen, sind Administratorrechte erforderlich. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#26) oder [Ronny Stolze](#26).
+Um die Liste der angemeldeten Teilnehmer einzusehen, sind Administratorrechte erforderlich. Wenden Sie sich hierzu bitte an [Nancy Brinkmann](#28) oder [Ronny Stolze](#28).
 
 <br/>
 ~~Kurse der Teilnehmer als 'bestanden' markieren~~
@@ -1278,7 +1283,7 @@ $^* $nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 `2.` Wie installiere ich die Plugins für Atom?
 
-Nach Eingabe folgender Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins (liascript-preview, liascript-snippets), die Sie installieren können. Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
+Nach Eingabe folgender Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell zwei Plugins ([liascript-preview](https://atom.io/packages/liascript-preview) und [liascript-snippets](https://atom.io/packages/liascript-snippets)), die Sie installieren können. (Alternativ nutzen Sie die Links an dieser Stelle.) Wenn es Updates gibt, werden Sie innerhalb Atom darauf hingewiesen.
 
 <br>
 
@@ -1292,7 +1297,13 @@ Das Plugin **liascript-snippets** hilft Ihnen dabei, Befehle zur Erstellung von 
 
 `4.` Textdateien visualisieren
 
-Um Tabellen wie unter [Visualisieren von Messdaten](#11) in Ihrem Kurs zu nutzen, können sie der Textdatei für diese Online-Hilfe, in der Sie sich befinden, den dazugehörigen Code entnehmen. Gehen Sie oben in die Adresszeile Ihres Browsers und löschen alles, was vor 'https://raw.github[...]' steht. Nach einem Klick auf 'Enter' sehen Sie den Rohtext dieser Online-Hilfe. Mit Strg$+$F finden Sie die gesuchte Stelle im Doukument. Kopieren Sie sich den gewünschten Inhalt und fügen Ihn in Ihren Kurs ein.
+Um Tabellen wie unter [Visualisieren von Messdaten](#11) in Ihrem Kurs zu nutzen, können Sie der Textdatei für diese Online-Hilfe, in der Sie sich befinden, den dazugehörigen Code entnehmen. Gehen Sie oben in die Adresszeile Ihres Browsers und löschen alles, was vor 'https://raw.github[...]' steht. Nach einem Klick auf 'Enter' sehen Sie den Rohtext dieser Online-Hilfe. Mit Strg$+$F finden Sie die gesuchte Stelle im Dokument. Kopieren Sie sich den gewünschten Inhalt und fügen Ihn in Ihren Kurs ein.
+
+Zusätzlich ist das Einfügen des folgenden Eintrags in den Header erforderlich:
+
+`script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js`
+
+Fügen Sie diesen am Ende nach Ihrem Kommentar ein.
 
 
 ## eLab
