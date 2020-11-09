@@ -32,7 +32,7 @@ Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erst
 Bevor Sie einen Kurs erstellen können, sind einige [Vorbereitungen](#3) zu treffen. Eine Anleitung finden Sie auf den nächsten Seiten.
 
 
-##**Vorbereitungen**
+## **Vorbereitungen**
 
 Als Grundlage für den Inhalt Ihrer Kurse benötigen Sie eine Textdatei, in der Sie Ihren gesamten Kurs aufbauen. Zum Bearbeiten dieser eignet sich z.B. der Editor [Atom](https://atom.io/). Denn hier haben Sie mithilfe von aktuell zwei Werkzeugen für LIA-Script (Plugins: [liascript-preview](https://atom.io/packages/liascript-preview) und [liascript-snippets](https://atom.io/packages/liascript-snippets)) die Möglichkeit, eine Preview Ihres Kurses anzusehen bzw. mit kurzen Eingaben Befehle zu finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen. (Näheres zu den Plugins finden Sie [hier](#26).)
 
