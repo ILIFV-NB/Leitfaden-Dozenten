@@ -65,7 +65,7 @@ Nachdem Sie Ihr Repository geöffnet haben, sehen Sie einen Button mit dem Namen
 <br/>
 4. Repository für Atom **klonen**
 
-Sie haben nun die Möglichkeit, Ihren Kurs im Online-Editor Atom zu laden und dort zu bearbeiten. Öffnen Sie dazu ihren Kurs auf GitHub, klicken rechts über Ihrem Kurs auf *Clone or download* und kopieren Sie den Link. Mithilfe dieses Links werden die Inhalte des Repositorys lokal auf Ihrem Rechner gespeichert und können dort mit Material befüllt werden (Alternative -> direkt in GitHub). Für nähere Erläuterungen und die weitere Vorgehensweise schauen Sie sich bitte das Kapitel [Atom](#5) -> *3. Geklontes Repository laden* an.
+Sie haben nun die Möglichkeit, Ihren Kurs im Online-Editor Atom zu laden und dort zu bearbeiten. Öffnen Sie dazu ihren Kurs auf GitHub, klicken rechts über Ihrem Kurs auf *Code* und kopieren Sie den Link. Mithilfe dieses Links werden die Inhalte des Repositorys lokal auf Ihrem Rechner gespeichert und können dort mit Material befüllt werden (Alternative -> direkt in GitHub). Für nähere Erläuterungen und die weitere Vorgehensweise schauen Sie sich bitte das Kapitel [Atom](#5) -> *3. Geklontes Repository laden* an.
 
 <br/>
 $^* $ [Hier](https://guides.github.com/activities/hello-world/) finden Fortgeschrittene nähere Informationen zum Erstellen und Bearbeiten eines Repositorys.
@@ -1206,7 +1206,13 @@ Am Fuß der Software Atom finden Sie eine Beschriftung namens **Git**. Wenn Sie 
 
 Hierzu geben Sie in das Feld mit dem Inhalt 'Commit message' einen Hinweis ein, der etwas über die getätigten Änderungen aussagt (z.B. "Kapitel 3 eingefügt" oder "Fotos ergänzt") und bestätigen mit **Commit to master**.
 
-Wiederum am unteren Rand der Software erscheint der Hinweis **push 1**. Mit einem Klick darauf senden Sie die aktuelle Version Ihres Kurses zu GitHub, welche Sie wenige Sekunden später dort auffinden.
+Wiederum am unteren Rand der Software erscheint der Hinweis **push 1**. Mit einem Klick darauf öffnet sich ein Fenster, in das Sie Ihre GitHub LogIn-Daten* eintragen. Nun senden Sie die aktuelle Version Ihres Kurses zu GitHub, welche Sie wenige Sekunden später dort auffinden.
+
+<br/>
+<!--
+style="font-Size: 13px"
+-->
+$^* $ Um Ihre LogIn-Daten zu GitHub zu speichern, klicken Sie in Atom unten rechts auf das Katzensymbol (GitHub), folgen dem Link und generieren mit dem Einloggen ein Token, das Sie wiederum in Atom eingeben. Ab sofort genügt ein Klick auf **push**, um Ihren Kurs bei GitHub zu aktualisieren!
 
 
 # ~~**Schnelleinstieg eLab**~~
@@ -1235,7 +1241,7 @@ style = "width: 100%;
 
 Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen (inkl. URL$^* $) zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren Sie das Kontrollkästchen neben ~~Active~~. Einmal zugänglich, sollte ein Kurs nicht mehr verändert werden!!! (In diesen Bereich gelangen Sie wieder über *eLab -> jeweiliger Kurs ->  Edit*)
 
- $^* $Die URL bekommen Sie auf [GitHub](https://github.com/). Öffnen Sie dort den jeweiligen Kurs und klicken Sie auf die ReadMe-Datei. Rechts erscheint ein Button mit dem Namen 'Raw'. Nachdem Sie diesen betätigt haben, landen Sie auf einer Seite mit den Rohdaten zu Ihrem Kurs. Der Inhalt in der Adresszeile ist die URL, die Sie für das Einpflegen in die Webumgebung eLab benötigen. Kopieren Sie diese und fügen Sie sie an entsprechender Stelle in der Webumgebung ein.
+ $^* $ Die URL bekommen Sie auf [GitHub](https://github.com/). Öffnen Sie dort den jeweiligen Kurs und klicken Sie auf die ReadMe-Datei. Rechts erscheint ein Button mit dem Namen 'Raw'. Nachdem Sie diesen betätigt haben, landen Sie auf einer Seite mit den Rohdaten zu Ihrem Kurs. Der Inhalt in der Adresszeile ist die URL, die Sie für das Einpflegen in die Webumgebung eLab benötigen. Kopieren Sie diese und fügen Sie sie an entsprechender Stelle in der Webumgebung ein.
 
 
 ## Teilnehmereinsicht
@@ -1255,7 +1261,7 @@ Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die
 
 Gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen TeilnehmerIn auf den Bleistift und ändern Sie hier neben ~~Role~~ den jeweiligen Status.$ ^* $
 
-$ ^* $Alternativ klicken Sie auf das Auge und oben rechts auf ~~Edit~~.
+$ ^* $ Alternativ klicken Sie auf das Auge und oben rechts auf ~~Edit~~.
 
 ## Tickets einsehen
 
@@ -1276,8 +1282,10 @@ Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://
 |Preview zurücksetzen$^*$ | Strg$+$S oder F5 |
 |zurück | Alt$+$links |
 |vor |Alt$+$rechts |
+|zur Textstelle in ReadMe springen|Doppelklick in Preview|
+|zur Textstelle in Preview springen|Doppelklick in ReadMe|
 
-$^* $nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
+$^* $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 <br>
 
