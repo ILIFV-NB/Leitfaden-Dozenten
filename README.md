@@ -24,6 +24,10 @@ Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Sc
 
 Die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
 
+Hier finden Sie eine Orientierungshilfe für eLab:
+
+[preview-lia](https://raw.githubusercontent.com/ILIFV-NB/Orientierungshilfe-eLab/master/README.md)
+
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
@@ -1207,6 +1211,8 @@ Am Fuß der Software Atom finden Sie eine Beschriftung namens **Git**. Wenn Sie 
 Hierzu geben Sie in das Feld mit dem Inhalt 'Commit message' einen Hinweis ein, der etwas über die getätigten Änderungen aussagt (z.B. "Kapitel 3 eingefügt" oder "Fotos ergänzt") und bestätigen mit **Commit to master**.
 
 Wiederum am unteren Rand der Software erscheint der Hinweis **push 1**. Mit einem Klick darauf öffnet sich ein Fenster, in das Sie Ihre GitHub LogIn-Daten* eintragen. Nun senden Sie die aktuelle Version Ihres Kurses zu GitHub, welche Sie wenige Sekunden später dort auffinden.
+
+Alternativ sind Änderungen direkt in GitHub möglich. Um diese Änderungen in Atom (lokal) zu übernehmen, klicken Sie unten rechts auf **fetch**. Ihre Daten werden von GitHub abgerufen. Wenn Sie Ihren Kurs gemeinschaftlich bearbeiten, sollten Sie diesen Schritt stets durchführen, bevor Sie sich erneut Ihrem Kurs widmen. So entgehen Ihnen keinen Änderungen
 
 <br/>
 <!--
