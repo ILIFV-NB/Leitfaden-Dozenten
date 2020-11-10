@@ -24,6 +24,10 @@ Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Sc
 
 Die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
 
+Hier finden Sie eine Orientierungshilfe für eLab:
+
+[preview-lia](https://raw.githubusercontent.com/ILIFV-NB/Orientierungshilfe-eLab/master/README.md)
+
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
