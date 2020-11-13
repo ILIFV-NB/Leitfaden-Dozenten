@@ -445,7 +445,7 @@ function plotData(t, x, y, z) {
 </script>
 
 
-<div id="main" style="position:relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main" style="position:relative; width:100%; height:100%;" hidden="true"></div>
 
 
 ### Rauheitskenngrößen
@@ -608,7 +608,7 @@ function plotData(t1, x1, y1, z1) {
 </script>
 
 
-<div id="main1" style="position: relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main1" style="position: relative; width:100%; height:100%;" hidden="true"></div>
 
 
 ### Rauheitsprofile
@@ -1055,7 +1055,7 @@ function plotData(t4, x4) {
 }
 </script>
 
-<div id="main4" style="position: relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main4" style="position: relative; width:100%; height:100%;" hidden="true"></div>
 
 
 ### Durchmesser
@@ -1189,7 +1189,7 @@ function plotData(t5, x5) {
 </script>
 
 
-<div id="main5" style="position: relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main5" style="position: relative; width:100%; height:100%;" hidden="true"></div>
 
 ## **-> Hinweise**
 
