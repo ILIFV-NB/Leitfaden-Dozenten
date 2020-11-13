@@ -3,7 +3,7 @@ author:   Nancy Brinkmann, Ronny Stolze
 
 email:    nancy.brinkmann@h2.de, ronny.stolze@h2.de
 
-version:  1.0.0
+version:  11.20
 
 language: de
 
@@ -18,20 +18,18 @@ script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 
 # Allgemeines
 
-Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LIA-Script](#2) sowie die [Webumgebung eLab](#20).
+Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LiaScript](#2) sowie die [Webumgebung eLab](#20).
 
-[LIA-Script](https://liascript.github.io/) ist eine von André Dietrich entwickelte erweiterte Markdownsprache, mithilfe derer Sie Ihren Kurs ohne Programmierkenntnisse aufbauen können. Auf den folgenden Seiten bekommen Sie einen Überblick über das Arbeiten mit LIA-Script. Darüber hinaus erfahren Sie in der [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) (englisch) alles, was Sie über LIA-Script wissen müssen und, was Sie damit anstellen können. Eine verkürzte Version auf Deutsch finden Sie [hier](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/demo/master/README.md#1).
+[LiaScript](https://liascript.github.io/) ist eine von André Dietrich entwickelte erweiterte Markdownsprache, mithilfe derer Sie Ihren Kurs ohne Programmierkenntnisse aufbauen können. Auf den folgenden Seiten bekommen Sie einen kurzen Überblick über das Arbeiten mit LiaScript.
+
+Darüber hinaus erfahren Sie in der [englischen](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) sowie [deutschen](https://aizac.herokuapp.com/liascript-cheet-sheet/) Dokumentation alles, was Sie über LiaScript wissen müssen und was Sie damit anstellen können. Der [LiaScript Crash-courSe](https://aizac.herokuapp.com/liascript-charsh-course-in-13/) veranschaulicht zudem in 13 Kapiteln und Videos Schritt für Schritt die Entwicklung eines Kurses.
 
 Die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
-
-Hier finden Sie eine Orientierungshilfe für eLab:
-
-[preview-lia](https://raw.githubusercontent.com/ILIFV-NB/Orientierungshilfe-eLab/master/README.md)
 
 
 # ~~**Schnelleinstieg LIA-Script**~~
 
-Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LIA-Script dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.
+Die folgende Beschreibung stellt lediglich einen ~~kurzen~~ Einblick in die Erstellung eines Kurses mit LiaScript dar. An dieser Stelle sei noch einmal auf die komplette (englische) Beschreibung und Auflistung der Möglichkeiten mit [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) verwiesen.
 
 Bevor Sie einen Kurs erstellen können, sind einige [Vorbereitungen](#3) zu treffen. Eine Anleitung finden Sie auf den nächsten Seiten.
 
@@ -81,10 +79,10 @@ $^{* * } $ Ihr Kurs wird erst dann für andere zugänglich sein, wenn Sie den St
 <br/>
 1. Online Editor [Atom](https://atom.io/) **installieren**
 
-Laden Sie sich den Online-Editor Atom herunter und installieren Ihn auf Ihrem Rechner. In Atom können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LIA-Script Plugins (siehe Punkt 2) eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes *lia* eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen.
+Laden Sie sich den Online-Editor Atom herunter und installieren Ihn auf Ihrem Rechner. In Atom können Sie Ihre Textdateien (ReadMe) mit den Inhalten Ihres Kurses bearbeiten und mithilfe von zwei LiaScript Plugins (siehe Punkt 2) eine Preview Ihres Kurses einblenden sowie mit Eingabe des Wortes *lia* eine Reihe von Befehlen finden, die Sie bspw. beim [Einbinden von Medien](#7) unterstützen.
 
 <br/>
-2. [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) (Werkzeuge) für LIA installieren
+2. [Plugins](https://atom.io/packages/search?utf8=%E2%9C%93&q=liascript&commit=Search) (Werkzeuge) für LiaScript installieren
 
 Nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchleiste  ~~settings~~ ein und scrollen solange herunter bis *Settings View: Install Packages and Themes* erscheint. Hier geben Sie in die Suchleiste ~~liascript~~ ein. Es erscheinen aktuell die zwei Plugins *liascript-preview* und *liascript-snippets*, die Sie installieren sollten. Näheres zu den Plugins und deren Installation finden Sie [hier](#26).
 
@@ -243,11 +241,11 @@ Sie können diesen Link auch hinter einem Namen verstecken. Geben Sie dazu in At
 
 Diese ergänzen Sie durch den von Ihnen gewählten Namen und die URL:
 
-`[LIA](https://liascript.github.io/)`
+`[Lia](https://liascript.github.io/)`
 
 Auf Ihrer Seite erscheint lediglich der Name:
 
-[LIA](https://liascript.github.io/)
+[Lia](https://liascript.github.io/)
 
 
 ---------
@@ -447,7 +445,7 @@ function plotData(t, x, y, z) {
 </script>
 
 
-<div id="main" style="position:relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main" style="position:relative; width:100%; height:50%;" hidden="true"></div>
 
 
 ### Rauheitskenngrößen
@@ -610,7 +608,7 @@ function plotData(t1, x1, y1, z1) {
 </script>
 
 
-<div id="main1" style="position: relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main1" style="position: relative; width:100%; height:50%;" hidden="true"></div>
 
 
 ### Rauheitsprofile
@@ -763,7 +761,7 @@ function plotData(t2, x2) {
 }
 </script>
 
-<div id="main2" style="position: relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main2" style="position: relative; width:100%; height:50%;" hidden="true"></div>
 
 <br/>
 
@@ -910,7 +908,7 @@ function plotData(t3, x3) {
 }
 </script>
 
-<div id="main3" style="position: relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main3" style="position: relative; width:100%; height:50%;" hidden="true"></div>
 
 <br/>
 
@@ -1057,7 +1055,7 @@ function plotData(t4, x4) {
 }
 </script>
 
-<div id="main4" style="position: relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main4" style="position: relative; width:100%; height:50%;" hidden="true"></div>
 
 
 ### Durchmesser
@@ -1191,7 +1189,7 @@ function plotData(t5, x5) {
 </script>
 
 
-<div id="main5" style="position: relative; width:100%; height:600%;" hidden="true"></div>
+<div id="main5" style="position: relative; width:100%; height:50%;" hidden="true"></div>
 
 ## **-> Hinweise**
 
@@ -1247,7 +1245,11 @@ style = "width: 100%;
 
 Um einen neuen Kurs anzulegen, klicken Sie im Menü auf ~~eLab~~ und dort auf den Button ~~New Course~~. Tragen Sie hier die notwendigen Informationen (inkl. URL$^* $) zu Ihrem Kurs ein und bestätigen Sie mit ~~Submit~~. Sobald Sie Ihren Kurs für die Studierenden zugänglich machen möchten, aktivieren Sie das Kontrollkästchen neben ~~Active~~. Einmal zugänglich, sollte ein Kurs nicht mehr verändert werden!!! (In diesen Bereich gelangen Sie wieder über *eLab -> jeweiliger Kurs ->  Edit*)
 
- $^* $ Die URL bekommen Sie auf [GitHub](https://github.com/). Öffnen Sie dort den jeweiligen Kurs und klicken Sie auf die ReadMe-Datei. Rechts erscheint ein Button mit dem Namen 'Raw'. Nachdem Sie diesen betätigt haben, landen Sie auf einer Seite mit den Rohdaten zu Ihrem Kurs. Der Inhalt in der Adresszeile ist die URL, die Sie für das Einpflegen in die Webumgebung eLab benötigen. Kopieren Sie diese und fügen Sie sie an entsprechender Stelle in der Webumgebung ein.
+<br/>
+<!--
+style="font-Size: 13px"
+-->
+$^* $ Die URL bekommen Sie auf [GitHub](https://github.com/). Öffnen Sie dort den jeweiligen Kurs und kopieren Sie den Inhalt der Adresszeile. Fügen Sie diesen Link an entsprechender Stelle in der Webumgebung ein.
 
 
 ## Teilnehmereinsicht
@@ -1267,6 +1269,10 @@ Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die
 
 Gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen TeilnehmerIn auf den Bleistift und ändern Sie hier neben ~~Role~~ den jeweiligen Status.$ ^* $
 
+<br/>
+<!--
+style="font-Size: 13px"
+-->
 $ ^* $ Alternativ klicken Sie auf das Auge und oben rechts auf ~~Edit~~.
 
 ## Tickets einsehen
@@ -1291,6 +1297,9 @@ Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://
 |zur Textstelle in ReadMe springen|Doppelklick in Preview|
 |zur Textstelle in Preview springen|Doppelklick in ReadMe|
 
+<!--
+style="font-Size: 13px"
+-->
 $^* $ nach Ausführen von Visualisierungen oder Beantworten von Quizzen etc.
 
 <br>
@@ -1309,7 +1318,7 @@ Das Plugin **liascript-snippets** hilft Ihnen dabei, Befehle zur Erstellung von 
 
 <br>
 
-`4.` Textdateien visualisieren
+`4.` Wie kann ich Textdateien visualisieren?
 
 Um Tabellen wie unter [Visualisieren von Messdaten](#11) in Ihrem Kurs zu nutzen, können Sie der Textdatei für diese Online-Hilfe, in der Sie sich befinden, den dazugehörigen Code entnehmen. Gehen Sie oben in die Adresszeile Ihres Browsers und löschen alles, was vor 'https://raw.github[...]' steht. Nach einem Klick auf 'Enter' sehen Sie den Rohtext dieser Online-Hilfe. Mit Strg$+$F finden Sie die gesuchte Stelle im Dokument. Kopieren Sie sich den gewünschten Inhalt und fügen Ihn in Ihren Kurs ein.
 
@@ -1322,13 +1331,17 @@ Fügen Sie diesen am Ende nach Ihrem Kommentar ein.
 
 ## eLab
 
-`1.` Vorgehensweise, wenn ein(e) Studierende(r) das Passwort vergessen hat.
+`1.` Was kann ich tun, wenn ein(e) Studierende(r) das Passwort vergessen hat?
 
 Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
-`2.` Teilnehmer deaktivieren
+`2.` Wie kann ich Teilnehmer deaktivieren?
 
 Wenn Sie einen Teilnehmer deaktivieren möchten, z.B., weil das Semester und die Abgabephase beendet sind, gehen Sie im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und entfernen das Häkchen hinter ~~active~~. Der Teilnehmer erhält nach dem Einloggen die folgende Nachricht: *Your Account has been deactivated, please contact your administrator*.
+
+`3.` Warum kann ich mich nicht ausloggen?
+
+Aus technischen Gründen ist ein LogOut derzeit nur möglich, wenn mann sich innerhalb eines Kurses befindet.
 
 
 
