@@ -3,14 +3,13 @@ author:   Nancy Brinkmann, Ronny Stolze
 
 email:    nancy.brinkmann@h2.de, ronny.stolze@h2.de
 
-version:  11.20
+version:  0.20
 
 language: de
 
 narrator: DE FEMALE
 
-comment:  Try to write a short comment about
-          your course, multiline is also okay.
+comment:  Überblick über die Möglichkeiten mit LiaScript und der Webumgebung eLab
 
 script:  https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.js
 
@@ -24,7 +23,7 @@ Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LiaScr
 
 Darüber hinaus erfahren Sie in der [englischen](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) sowie [deutschen](https://aizac.herokuapp.com/liascript-cheet-sheet/) Dokumentation alles, was Sie über LiaScript wissen müssen und was Sie damit anstellen können. Der [LiaScript Crash-courSe](https://aizac.herokuapp.com/liascript-charsh-course-in-13/) veranschaulicht zudem in 13 Kapiteln und Videos Schritt für Schritt die Entwicklung eines Kurses.
 
-Die [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
+Die [Webumgebung eLab](http://192.168.16.148) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
 
 
 # ~~**Schnelleinstieg LIA-Script**~~
@@ -340,7 +339,7 @@ function plotData(t, x, y, z) {
     title : {
       display: false,
       text: "Zerspankraft",
-      subtext: 'Drehen',
+      subtext: 'Durchdrehen',
       itemGap: 10,
       textAlign: 'auto',
       textVerticalAlign: 'middle',
@@ -445,7 +444,7 @@ function plotData(t, x, y, z) {
 </script>
 
 
-<div id="main" style="position:relative; width:100%; height:100%;" hidden="true"></div>
+<div id="main" style="position:relative; width:100%; height:60%;" hidden="true"></div>
 
 
 ### Rauheitskenngrößen
@@ -608,7 +607,7 @@ function plotData(t1, x1, y1, z1) {
 </script>
 
 
-<div id="main1" style="position: relative; width:100%; height:100%;" hidden="true"></div>
+<div id="main1" style="position: relative; width:100%; height:60%;" hidden="true"></div>
 
 
 ### Rauheitsprofile
@@ -761,7 +760,7 @@ function plotData(t2, x2) {
 }
 </script>
 
-<div id="main2" style="position: relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main2" style="position: relative; width:100%; height:60%;" hidden="true"></div>
 
 <br/>
 
@@ -908,7 +907,7 @@ function plotData(t3, x3) {
 }
 </script>
 
-<div id="main3" style="position: relative; width:100%; height:50%;" hidden="true"></div>
+<div id="main3" style="position: relative; width:100%; height:60%;" hidden="true"></div>
 
 <br/>
 
@@ -1055,7 +1054,7 @@ function plotData(t4, x4) {
 }
 </script>
 
-<div id="main4" style="position: relative; width:100%; height:100%;" hidden="true"></div>
+<div id="main4" style="position: relative; width:100%; height:60%;" hidden="true"></div>
 
 
 ### Durchmesser
@@ -1189,7 +1188,7 @@ function plotData(t5, x5) {
 </script>
 
 
-<div id="main5" style="position: relative; width:100%; height:100%;" hidden="true"></div>
+<div id="main5" style="position: relative; width:100%; height:60%;" hidden="true"></div>
 
 ## **-> Hinweise**
 
@@ -1225,7 +1224,7 @@ Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung eLab. Di
 
 ## Registrierung
 
-Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
+Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](http://192.168.16.148).
 
 <br>
 ![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Register.jpg)<!--
@@ -1281,7 +1280,7 @@ Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unt
 
 # **FAQ**
 
-Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) bzw. zur [Webumgebung eLab](https://elab-hsmd-qa.dev.enterprises/).
+Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) bzw. zur [Webumgebung eLab](http://192.168.16.148).
 
 ## LIA-Script
 
@@ -1333,7 +1332,7 @@ Fügen Sie diesen am Ende nach Ihrem Kommentar ein.
 
 `1.` Was kann ich tun, wenn ein(e) Studierende(r) das Passwort vergessen hat?
 
-Sie loggen sich in die [Lernumgebung eLab](https://elab-hsmd-qa.dev.enterprises/) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
+Sie loggen sich in die [Lernumgebung eLab](http://192.168.16.148) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
 `2.` Wie kann ich Teilnehmer deaktivieren?
 
