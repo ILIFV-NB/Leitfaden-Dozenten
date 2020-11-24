@@ -3,7 +3,7 @@ author:   Nancy Brinkmann, Ronny Stolze
 
 email:    nancy.brinkmann@h2.de, ronny.stolze@h2.de
 
-version:  0.20
+version:  11.20
 
 language: de
 
@@ -23,7 +23,7 @@ Im Folgenden finden Sie zwei Leitfäden für je einen Schnelleinstieg in [LiaScr
 
 Darüber hinaus erfahren Sie in der [englischen](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) sowie [deutschen](https://aizac.herokuapp.com/liascript-cheet-sheet/) Dokumentation alles, was Sie über LiaScript wissen müssen und was Sie damit anstellen können. Der [LiaScript Crash-courSe](https://aizac.herokuapp.com/liascript-charsh-course-in-13/) veranschaulicht zudem in 13 Kapiteln und Videos Schritt für Schritt die Entwicklung eines Kurses.
 
-Die [Webumgebung eLab](http://192.168.16.148) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
+Die [Webumgebung eLab](http://192.168.16.11) ist eine Plattform, auf der Sie Ihre Kurse einbinden, online verfügbar machen und ggf. Bearbeitungsstände einsehen können.
 
 
 # ~~**Schnelleinstieg LIA-Script**~~
@@ -1224,7 +1224,7 @@ Hier finden Sie eine kurze Einweisung in den Umgang mit der Webumgebung eLab. Di
 
 ## Registrierung
 
-Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](http://192.168.16.148).
+Um Zugang zur Webumgebung eLab zu erhalten, registrieren Sie sich bitte zunächst auf folgender Website: [Webumgebung eLab](http://192.168.16.11).
 
 <br>
 ![image](https://raw.githubusercontent.com/ILIFV-NB/Leitfaden-Dozenten/master/images/Register.jpg)<!--
@@ -1280,7 +1280,7 @@ Wenn ein Studierender ein Problem in einem Kurs feststellt, kann er im Menü unt
 
 # **FAQ**
 
-Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) bzw. zur [Webumgebung eLab](http://192.168.16.148).
+Nachfolgend finden Sie einige allgemeine Hinweise zum Tool [LIA-Script](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) bzw. zur [Webumgebung eLab](http://192.168.16.11).
 
 ## LIA-Script
 
@@ -1332,7 +1332,7 @@ Fügen Sie diesen am Ende nach Ihrem Kommentar ein.
 
 `1.` Was kann ich tun, wenn ein(e) Studierende(r) das Passwort vergessen hat?
 
-Sie loggen sich in die [Lernumgebung eLab](http://192.168.16.148) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
+Sie loggen sich in die [Lernumgebung eLab](http://192.168.16.11) ein, gehen im Menü auf ~~User~~, klicken unter dem/der jeweiligen Studierenden auf den Bleistift und geben in die Zeilen ~~Password~~ und ~~Password Confirmation~~ ein Einmalpasswort ein, das Sie dem Studierenden per E-Mail mitteilen - mit der Bitte, dieses zu ändern.
 
 `2.` Wie kann ich Teilnehmer deaktivieren?
 
