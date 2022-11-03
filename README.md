@@ -3,7 +3,7 @@ author:   Nancy Brinkmann, Ronny Stolze
 
 email:    nancy.brinkmann@h2.de, ronny.stolze@h2.de
 
-version:  11.20
+version:  11.22
 
 language: de
 
@@ -88,7 +88,7 @@ Nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** geben Sie in die Suchlei
 <br/>
 3. Geklontes **Repository laden**
 
-Nachdem Sie Ihr Repository (wie unter GitHub -> 4. *Repository für Atom klonen* beschrieben) geklont haben, wechseln Sie zu Atom, geben nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** ~~clone~~ in die Suche ein und bestätigen mit *Enter*. Unter *clone from* fügen Sie Ihren Link ein und passen unter *to directory* ggf. ihren Pfad an. Dort werden Sie ab sofort alle Ordner und Dateien bzgl. Ihres Kurses finden und können Bilder und Videos hinzufügen oder entfernen.
+Nachdem Sie Ihr Repository (wie unter [GitHub](#4) -> 4. *Repository für Atom klonen* beschrieben) geklont haben, wechseln Sie zu Atom, geben nach Eingabe der Tastenkombination **Strg$+$Shift$+$P** ~~clone~~ in die Suche ein und bestätigen mit *Enter*. Unter *clone from* fügen Sie Ihren Link ein und passen unter *to directory* ggf. ihren Pfad an. Dort werden Sie ab sofort alle Ordner und Dateien bzgl. Ihres Kurses finden und können Bilder und Videos hinzufügen oder entfernen.
 
 
 ## **Textdatei erstellen**
